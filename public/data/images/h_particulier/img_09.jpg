@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html
+    class="js-menuBurgered noJS
+    "
+    lang="fr" xmlns="http://www.w3.org/1999/xhtml"
+>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Page d'erreur 404</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="description" content=""/>
+    <meta name="keywords" content="" />
+    <meta name="revisit-after" content="10 days" />
+    <meta name ="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="Paris Ouest Sotheby's International Realty"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <script>
+        var tarteaucitronCustomText = {
+            "middleBarHead": "",
+            "adblock": "Bonjour! Ce site joue la transparence et vous donne le choix des services tiers à activer.",
+            "adblock_call": "Merci de désactiver votre adblocker pour commencer la personnalisation.",
+            "reload": "Recharger la page",
+            "alertBigScroll": "En continuant de défiler,",
+            "alertBigClick": "En poursuivant votre navigation,",
+            "alertBig": "vous acceptez l'utilisation de services tiers pouvant installer des cookies",
+            "alertBigPrivacy": "<span class='tarteaucitronTitre'>Les cookies sur notre site internet </span>Paris Ouest Sotheby's International Realty utilise des cookies pour personnaliser le contenu et vous offrir une expérience sur mesure. Vous pouvez gérer vos préférences et en savoir plus en cliquant sur \"Réglages\" et à tout moment dans le pied de page du site en cliquant sur \"Gestion des cookies\". <a href='/fr/mentions-legales-bareme/#cookies'>En&nbsp;savoir&nbsp;plus...</a>",
+            "alertSmall": "Gestion des services",
+            "acceptAll": "Tout accepter",
+            "personalize": "Réglages",
+            "close": "Continuer sans accepter",
+            "privacyUrl": "Politique de confidentialité",
+            "all": "Préférences pour tous les services",
+            "info": "Protection de votre vie privée",
+            "disclaimer": "Paris Ouest Sotheby's International Realty utilise des cookies pour personnaliser le contenu et vous offrir une expérience sur mesure. En autorisant ces services tiers, vous acceptez le dépôt et la lecture de cookies et l'utilisation de technologies de suivi nécessaires à leur bon fonctionnement. <a href='/fr/mentions-legales-bareme/#cookies'>En&nbsp;savoir&nbsp;plus...</a>",
+            "allow": "Autoriser",
+            "deny": "Interdire",
+            "noCookie": "Ce service ne dépose aucun cookie.",
+            "useCookie": "Ce service peut déposer",
+            "useCookieCurrent": "Ce service a déposé",
+            "useNoCookie": "Ce service n'a déposé aucun cookie.",
+            "more": "En&nbsp;savoir&nbsp;plus",
+            "source": "Voir le site officiel",
+            "credit": "Gestion des cookies par tarteaucitron.js",
+            "noServices": "Ce site n'utilise aucun cookie nécessitant votre consentement.",
+            "toggleInfoBox": "Afficher/masquer les informations sur le stockage des cookies",
+            "title": "Panneau de gestion des cookies",
+            "cookieDetail": "Détail des cookies",
+            "ourSite": "sur notre site",
+            "newWindow": "(nouvelle fenêtre)",
+            "allowAll": "Tout accepter",
+            "denyAll": "Tout refuser",
+            "validate": "Enregistrer",
+            "fallback": "est désactivé.",
+            "ads": {
+                "title": "Régies publicitaires",
+                "details": "Les régies publicitaires permettent de générer des revenus en commercialisant les espaces publicitaires du site."
+            },
+            "analytic": {
+                "title": "Mesure d'audience",
+                "details": "Les services de mesure d'audience permettent de générer des statistiques de fréquentation utiles à l'amélioration du site."
+            },
+            "social": {
+                "title": "Réseaux sociaux",
+                "details": "Les réseaux sociaux permettent d'améliorer la convivialité du site et aident à sa promotion via les partages."
+            },
+            "video": {
+                "title": "Vidéos",
+                "details": "Les services de partage de vidéo permettent d'enrichir le site de contenu multimédia et augmentent sa visibilité."
+            },
+            "comment": {
+                "title": "Commentaires",
+                "details": "Les gestionnaires de commentaires facilitent le dépôt de vos commentaires et luttent contre le spam."
+            },
+            "support": {
+                "title": "Support",
+                "details": "Les services de support vous permettent d'entrer en contact avec l'équipe du site et d'aider à son amélioration."
+            },
+            "api": {
+                "title": "APIs",
+                "details": "Les APIs permettent de charger des scripts : géolocalisation, moteurs de recherche, traductions, ..."
+            },
+            "other": {
+                "title": "Autre",
+                "details": "Services visant à afficher du contenu web."
+            },
+            "mandatoryTitle": "Cookies obligatoires",
+            "mandatoryText": "Ce site utilise des cookies nécessaires à son bon fonctionnement qui ne peuvent pas être désactivés."
+        };
+    </script>
+    <script src="/theme/_siteSIR2021.sirpariwe/js/consentement/tarteaucitron.min.js?20240819"></script>
+
+    <script >
+    tarteaucitron.init({
+        // "privacyUrl": "/fr/mentions-legales-bareme/#cookies", /* Privacy policy url */
+        "showIcon": false, /* Show cookie icon to manage cookies */
+        "DenyAllCta": false, /* Show the deny all button */
+        "removeCredit": true, /* Remove credit link */
+        "closePopup": true,
+        "showDetailsOnClick": false
+    });
+    </script>
+
+    <script type="text/javascript">
+    tarteaucitron.user.googletagmanagerId = 'GTM-PJLMTH4';
+    (tarteaucitron.job = tarteaucitron.job || []).push('googletagmanager');
+
+    tarteaucitron.user.facebookpixelId = '399515347863823';
+    (tarteaucitron.job = tarteaucitron.job || []).push('facebookpixel');
+</script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="/theme/_siteSIR2021.sirpariwe/js/selectr/selectr.min.css?20220303"/>
+    <link rel="stylesheet" type="text/css" href="/theme/_siteSIR2021.sirpariwe/stylesheets/base.css?20251110="/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script id="slugsData" type="application/json">
+        {
+            "completeLink": "/fr/",
+            "curentSlug": "error/",
+            "slugs": {
+                "vente-immobilier-luxe-paris/": "Vente",
+                "louer/": "Location",
+                "": "LocSaison",
+                "hotels-particuliers-maisons/": "__protected__",
+                "vue-monuments-seine/": "__protected__",
+                "proximite-golf-tennis/": "__protected__",
+                "jardin-terrasse/": "__protected__"
+            },
+            "currentTransac": "Vente",
+            "transactions" : {
+                "Location" : "",
+                "Vente" : "selected",
+                "fake": ""
+            }
+        }
+    </script>
+    <script id="moteurData" type="application/json">
+        {
+            "transacs": [
+                {
+                    "name": "transac",
+                    "value": "Vente",
+                    "label": "Acheter"
+                },
+                {
+                    "name": "transac",
+                    "value": "Location",
+                    "label": "Louer"
+                }
+            ],
+            "cities_filters": {
+               "address_departement": []
+            },
+            "currentSecteurs" : "",
+            "secteurs": [
+                {"id":"1_2_3_4","value":["FR;75001;paris","FR;75002;paris","FR;75003;paris","FR;75004;paris"],"label":"Paris 1 \/ 2 \/ 3 \/ 4","count":"33","disabled":false},
+                {"id":"5_6_7_13_14_15","value":["FR;75005;paris","FR;75006;paris","FR;75007;paris","FR;75013;paris","FR;75014;paris","FR;75015"],"label":"Paris 5 \/ 6 \/ 7 \/ 13 \/ 14 \/ 15","count":"26","disabled":false},
+                {"id":"9_10_11_12_18_19_20","value":["FR;75009;paris","FR;75010;paris","FR;75011;paris","FR;75012;paris","FR;75018;paris","FR;75019;paris","FR;75020;paris"],"label":"Paris 9 \/ 10 \/ 11 \/ 12 \/ 18 \/ 19 \/ 20","count":"18","disabled":false},
+                {"id":"16eme","value":["FR;75016;paris","FR;75116;paris"],"label":"Paris 16","count":"67","disabled":false},
+                {"id":"8_17","value":["FR;75017;paris","FR;75008;paris"],"label":"Paris 8 \/ 17","count":"34","disabled":false},
+                {"id":"neuilly","value":["FR;92200;neuilly-sur-seine"],"label":"Neuilly-sur-Seine","count":"78","disabled":false},
+                {"id":"hauts_seine","value":["FR;92"],"label":"Hauts de Seine 92","count":"101","disabled":false},
+                {"id":"boulogne_levallois","value":["FR;92012","FR;92300"],"label":"Boulogne \/ Levallois","count":"0","disabled":true},
+                {"id":"yvelines","value":["FR;78","FR;91","FR;93"],"label":"Yvelines 78 \/ 91 \/ 93","count":"20","disabled":false},
+                {"id":"val_de_marne","value":["FR;94","FR;77"],"label":"Val de Marne 94 \/ 77","count":"4","disabled":false},
+                {"id":"autres","value":["FR;92","FR;78","FR;94","FR;75","FR;77","FR;91","FR;93"],"label":"Autres","count":"303","disabled":false},
+                null
+            ],
+            "currentCities" : "",
+            "cities": [
+                {
+                    "id": "FR;78380;bougival",
+                    "label": "Bougival - 78380",
+                    "value": "FR;78380;bougival"
+                 },
+                {
+                    "id": "FR;92100;boulogne-billancourt",
+                    "label": "Boulogne-Billancourt - 92100",
+                    "value": "FR;92100;boulogne-billancourt"
+                 },
+                {
+                    "id": "FR;94500;champigny-sur-marne",
+                    "label": "Champigny-sur-Marne - 94500",
+                    "value": "FR;94500;champigny-sur-marne"
+                 },
+                {
+                    "id": "FR;92140;clamart",
+                    "label": "Clamart - 92140",
+                    "value": "FR;92140;clamart"
+                 },
+                {
+                    "id": "FR;78290;croissy-sur-seine",
+                    "label": "Croissy-sur-Seine - 78290",
+                    "value": "FR;78290;croissy-sur-seine"
+                 },
+                {
+                    "id": "FR;94120;fontenay-sous-bois",
+                    "label": "Fontenay-sous-Bois - 94120",
+                    "value": "FR;94120;fontenay-sous-bois"
+                 },
+                {
+                    "id": "FR;92380;garches",
+                    "label": "Garches - 92380",
+                    "value": "FR;92380;garches"
+                 },
+                {
+                    "id": "FR;78170;la-celle-st-cloud",
+                    "label": "La Celle-Saint-Cloud - 78170",
+                    "value": "FR;78170;la-celle-st-cloud"
+                 },
+                {
+                    "id": "FR;94210;la-varenne-st-hilaire",
+                    "label": "La Varenne St Hilaire - 94210",
+                    "value": "FR;94210;la-varenne-st-hilaire"
+                 },
+                {
+                    "id": "FR;78110;le-vesinet",
+                    "label": "Le Vésinet - 78110",
+                    "value": "FR;78110;le-vesinet"
+                 },
+                {
+                    "id": "FR;78670;medan",
+                    "label": "Médan - 78670",
+                    "value": "FR;78670;medan"
+                 },
+                {
+                    "id": "FR;78250;meulan-en-yvelines",
+                    "label": "Meulan-en-Yvelines - 78250",
+                    "value": "FR;78250;meulan-en-yvelines"
+                 },
+                {
+                    "id": "FR;78490;montfort-l-amaury",
+                    "label": "Montfort-l'Amaury - 78490",
+                    "value": "FR;78490;montfort-l-amaury"
+                 },
+                {
+                    "id": "FR;92200;neuilly-sur-seine",
+                    "label": "Neuilly-sur-Seine - 92200",
+                    "value": "FR;92200;neuilly-sur-seine"
+                 },
+                {
+                    "id": "FR;78910;orgerus",
+                    "label": "Orgerus - 78910",
+                    "value": "FR;78910;orgerus"
+                 },
+                {
+                    "id": "FR;78630;orgeval",
+                    "label": "Orgeval - 78630",
+                    "value": "FR;78630;orgeval"
+                 },
+                {
+                    "id": "FR;75001;paris",
+                    "label": "Paris - 75001",
+                    "value": "FR;75001;paris"
+                 },
+                {
+                    "id": "FR;75002;paris",
+                    "label": "Paris - 75002",
+                    "value": "FR;75002;paris"
+                 },
+                {
+                    "id": "FR;75003;paris",
+                    "label": "Paris - 75003",
+                    "value": "FR;75003;paris"
+                 },
+                {
+                    "id": "FR;75004;paris",
+                    "label": "Paris - 75004",
+                    "value": "FR;75004;paris"
+                 },
+                {
+                    "id": "FR;75005;paris",
+                    "label": "Paris - 75005",
+                    "value": "FR;75005;paris"
+                 },
+                {
+                    "id": "FR;75006;paris",
+                    "label": "Paris - 75006",
+                    "value": "FR;75006;paris"
+                 },
+                {
+                    "id": "FR;75007;paris",
+                    "label": "Paris - 75007",
+                    "value": "FR;75007;paris"
+                 },
+                {
+                    "id": "FR;75008;paris",
+                    "label": "Paris - 75008",
+                    "value": "FR;75008;paris"
+                 },
+                {
+                    "id": "FR;75009;paris",
+                    "label": "Paris - 75009",
+                    "value": "FR;75009;paris"
+                 },
+                {
+                    "id": "FR;75010;paris",
+                    "label": "Paris - 75010",
+                    "value": "FR;75010;paris"
+                 },
+                {
+                    "id": "FR;75011;paris",
+                    "label": "Paris - 75011",
+                    "value": "FR;75011;paris"
+                 },
+                {
+                    "id": "FR;75014;paris",
+                    "label": "Paris - 75014",
+                    "value": "FR;75014;paris"
+                 },
+                {
+                    "id": "FR;75015;paris",
+                    "label": "Paris - 75015",
+                    "value": "FR;75015;paris"
+                 },
+                {
+                    "id": "FR;75016;paris",
+                    "label": "Paris - 75016",
+                    "value": "FR;75016;paris"
+                 },
+                {
+                    "id": "FR;75017;paris",
+                    "label": "Paris - 75017",
+                    "value": "FR;75017;paris"
+                 },
+                {
+                    "id": "FR;75018;paris",
+                    "label": "Paris - 75018",
+                    "value": "FR;75018;paris"
+                 },
+                {
+                    "id": "FR;75020;paris",
+                    "label": "Paris - 75020",
+                    "value": "FR;75020;paris"
+                 },
+                {
+                    "id": "FR;75116;paris",
+                    "label": "Paris - 75116",
+                    "value": "FR;75116;paris"
+                 },
+                {
+                    "id": "FR;92800;puteaux",
+                    "label": "Puteaux - 92800",
+                    "value": "FR;92800;puteaux"
+                 },
+                {
+                    "id": "FR;92500;rueil-malmaison",
+                    "label": "Rueil-Malmaison - 92500",
+                    "value": "FR;92500;rueil-malmaison"
+                 },
+                {
+                    "id": "FR;92210;st-cloud",
+                    "label": "Saint-Cloud - 92210",
+                    "value": "FR;92210;st-cloud"
+                 },
+                {
+                    "id": "FR;78100;st-germain-en-laye",
+                    "label": "Saint-Germain-en-Laye - 78100",
+                    "value": "FR;78100;st-germain-en-laye"
+                 },
+                {
+                    "id": "FR;94210;st-maur-des-fosses",
+                    "label": "Saint-Maur-des-Fossés - 94210",
+                    "value": "FR;94210;st-maur-des-fosses"
+                 },
+                {
+                    "id": "FR;92310;sevres",
+                    "label": "Sèvres - 92310",
+                    "value": "FR;92310;sevres"
+                 },
+                {
+                    "id": "FR;92420;vaucresson",
+                    "label": "Vaucresson - 92420",
+                    "value": "FR;92420;vaucresson"
+                 },
+                {
+                    "id": "FR;91430;vauhallan",
+                    "label": "Vauhallan - 91430",
+                    "value": "FR;91430;vauhallan"
+                 },
+                {
+                    "id": "FR;91370;verrieres-le-buisson",
+                    "label": "Verrières-le-Buisson - 91370",
+                    "value": "FR;91370;verrieres-le-buisson"
+                 },
+                {
+                    "id": "FR;78000;versailles",
+                    "label": "Versailles - 78000",
+                    "value": "FR;78000;versailles"
+                 },
+                {
+                    "id": "FR;92410;ville-d-avray",
+                    "label": "Ville-d'Avray - 92410",
+                    "value": "FR;92410;ville-d-avray"
+                 },
+                {
+                    "id": "FR;91330;yerres",
+                    "label": "Yerres - 91330",
+                    "value": "FR;91330;yerres"
+                 },
+                null
+            ],
+            "typesPerso": [
+                {
+                    "name": "filtres_perso[types][]",
+                    "value": "MAISON_VILLA_PROPERTY",
+                    "label": "maison de luxe / villa de luxe / propriété de luxe / hôtel particulier",
+                    "checked": ""
+                },
+                 {
+                    "name": "filtres_perso[types][]",
+                    "value": "APPARTEMENT",
+                    "label": "appartement de luxe",
+                    "checked": ""
+                },
+                {
+                    "name": "filtres_perso[types][]",
+                    "value": "LOFT_ATELIER_PENTHOUSE",
+                    "label": "loft de luxe / atelier d'artiste / penthouse",
+                    "checked": ""
+                },
+                {
+                    "name": "filtres_perso[types][]",
+                    "value": "CHATEAUXMANOIRS2",
+                    "label": "château / manoir",
+                    "checked": ""
+                }
+            ],
+            "lifestyles": [
+                {
+                    "name": "filtres_perso[lifestyles][]",
+                    "value": "HOTELSPART",
+                    "label": "Hôtel particuliers et maisons",
+                    "checked": ""
+                },
+                {
+                    "name": "filtres_perso[lifestyles][]",
+                    "value": "MONUMENTSEINE",
+                    "label": "Vue Monuments et Seine",
+                    "checked": ""
+                },
+                {
+                    "name": "filtres_perso[lifestyles][]",
+                    "value": "GOLF",
+                    "label": "Golf & Tennis",
+                    "checked": ""
+                },
+                {
+                    "name": "filtres_perso[lifestyles][]",
+                    "value": "JARDINTERRASSE",
+                    "label": "Jardins & Terrasses",
+                    "checked": ""
+                }
+            ],
+            "prestations": [
+                {
+                    "name": "piscine",
+                    "value": "1",
+                    "label": "Piscine",
+                    "checked": ""
+                },
+                {
+                    "name": "parkings",
+                    "value": "1",
+                    "label": "Parking",
+                    "checked": ""
+                },
+                {
+                    "name": "terrasse",
+                    "value": "1",
+                    "label": "Terrasse",
+                    "checked": ""
+                },
+                {
+                    "name": "balcon",
+                    "value": "1",
+                    "label": "balcon",
+                    "checked": ""
+                },
+                {
+                    "name": "video",
+                    "value": "1",
+                    "label": "Avec vidéo",
+                    "checked": ""
+                }
+            ]
+        }
+    </script>
+    <script id="translations" type="application/json">
+        {
+            "TXT_ITI_IS_POSSIBLE" : "Numéro possible",
+            "TXT_ITI_INVALID_COUNTRY_CODE" : "Indicatif téléphonique invalide",
+            "TXT_ITI_TOO_SHORT" : "Numéro trop court",
+            "TXT_ITI_TOO_LONG" : "Numéro trop long",
+            "TXT_ITI_IS_POSSIBLE_LOCAL_ONLY" : "Numéro possible mais indicatif téléphonique non fourni",
+            "TXT_ITI_INVALID_LENGTH" : "Taille du numéro invalide"
+        }
+    </script>
+
+    <meta id="siteThemePath" value="/theme/_siteSIR2021.sirpariwe/">
+
+    <meta id="recaptchaKey" value="6Ld9MakUAAAAAA9ynzL6aje3OXpHzzU5g90hirUE">
+
+    <script src="/theme/_siteSIR2021.sirpariwe/js/selectr/selectr-min.js?20220303" defer></script>
+    <script src="/theme/_siteSIR2021.sirpariwe/js/main.min.js?20241105" defer></script>
+    <script src="/theme/_siteSIR2021.sirpariwe/js/form.min.js?20250312" defer></script>
+
+
+
+
+    <link rel="icon" type="image/png" href="/theme/_siteSIR2021.sirpariwe/images/favicon.ico"/>
+
+    <link rel="canonical" href="https://www.parisouest-sothebysrealty.com/datas/biens/images/4431/gallery/4431_08-2023-05-17-1606.jpg"/>
+
+
+    <link rel="apple-touch-icon" href="/theme/_siteSIR2021.sirpariwe/images/appleTouchIcon60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/theme/_siteSIR2021.sirpariwe/images/appleTouchIcon76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/theme/_siteSIR2021.sirpariwe/images/appleTouchIcon120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/theme/_siteSIR2021.sirpariwe/images/appleTouchIcon152.png">
+
+    <meta name="application-name" content="Paris Ouest Sotheby's International Realty" />
+    <meta name="msapplication-TileColor" content="#001839" />
+    <meta name="msapplication-square70x70logo" content="/theme/_siteSIR2021.sirpariwe/images/msTouch/smalltile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/theme/_siteSIR2021.sirpariwe/images/msTouch/mediumtile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/theme/_siteSIR2021.sirpariwe/images/msTouch/widetile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/theme/_siteSIR2021.sirpariwe/images/msTouch/largetile-310x310.png" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "WebPage",
+            "name": "Page d'erreur 404",
+            "url": "https://www.parisouest-sothebysrealty.com/datas/biens/images/4431/gallery/4431_08-2023-05-17-1606.jpg",
+            "inLanguage":"fr",
+            "description": ""
+        }
+    </script>
+
+
+
+
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="https://use.typekit.net/tza1mtp.css"/>
+
+
+</head>
+<body>
+    
+<div id="main" class="error-default tpl_module_error_default">
+    <header class="header">
+	<div class="header_top">
+		<span class="header_contact_btn header_ico js-dynamicAsideBtn" data-d-aside-target="asideContact"><img src="/theme/_siteSIR2021.sirpariwe/images/ico_phone_home.svg" alt=""></span>
+
+		<span class="header_ico js-dynamicAsideBtn asidePreferences" data-d-aside-target="asidePreferences">
+			<span class="selected">
+				<img src="/theme/_siteSIR2021.sirpariwe/images/flags/fr.png" alt="Préférences" />
+			</span>
+			<span class="">
+				<img src="/theme/_siteSIR2021.sirpariwe/images/flags/en.png" alt="Préférences" />
+			</span>
+		</span>
+
+		<a class="header_ico selection" href="/fr/selection/" title="Ma sélection"><img src="/theme/_siteSIR2021.sirpariwe/images/ico_selection.svg" alt="Sauvegarder"><span class="nb_selection">0</span></a>
+	</div>
+	<div class="header_main">
+		<div class="header_search_wrapper">
+			<div class="header_search js-dynamicAsideBtn" data-d-aside-target="moteur"></div>
+		</div>
+		<div class="header_logo">
+			<a href="https://www.parisouest-sothebysrealty.com/fr/" title="Paris Ouest Sotheby's International Realty">
+				<img class="header_logo_img" src="/theme/_siteSIR2021.sirpariwe/images/logo_blanc.svg" alt="Paris Ouest Sotheby's International Realty" />
+			</a>
+		</div>
+		<div class="header_toggler"></div>
+		<nav class="header_menu">
+			<div class="header_burgered_top">
+				<span class="header_contact_btn header_ico js-dynamicAsideBtn" data-d-aside-target="asideContact"><img src="/theme/_siteSIR2021.sirpariwe/images/ico_phone_home.svg" alt=""></span>
+				<span class="header_ico js-dynamicAsideBtn asidePreferences" data-d-aside-target="asidePreferences">
+					<span class="selected">
+						<img src="/theme/_siteSIR2021.sirpariwe/images/flags/fr.png" alt="Préférences" />
+					</span>
+					<span class="">
+						<img src="/theme/_siteSIR2021.sirpariwe/images/flags/en.png" alt="Préférences" />
+					</span>
+				</span>
+				<a class="header_ico selection" href="/fr/selection/" title="Ma sélection"><img src="/theme/_siteSIR2021.sirpariwe/images/ico_selection.svg" alt="Sauvegarder"><span class="nb_selection">0</span></a>
+			</div>
+			<div class="header_menu_items_wrapper">
+    <ul class="header_menu_items">
+
+        <li class="header_menu_item header_menu_parent">
+            <a class="header_menu_link" href="/fr/vente-immobilier-luxe-paris/&new_research=1" title="Appartements et Hotels particuliers de luxe en vente à Paris et Neuilly sur Seine - Immobilier de prestige">Acheter</a>
+            <div class="header_sousMenu">
+                <div class="header_sousMenu_back">< Retour Acheter</div>
+                <ul class="header_sousMenu_items">
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/vente-immobilier-luxe-paris/&new_research=1" title="Appartements et Hotels particuliers de luxe en vente à Paris et Neuilly sur Seine - Immobilier de prestige">Tous nos biens en vente</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/immeubles/&new_research=1" title="Nos immeubles en vente">Immeubles</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/programmes-neufs/" title="Programmes neufs en vente">Programmes neufs</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/jardin-terrasse/&new_research=1" title="Jardins et terrasses">Jardins & Terrasses</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/style-de-vie-immobilier-luxe/" title="">Style de Vie</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/biens-vendus/&new_research=1" title="Les Appartements et Hotels particuliers que nous avons vendu sur Paris et Neuilly sur Seine - Immobilier de prestige">Biens vendus</a></li>
+
+                </ul>
+            </div>
+        </li>
+
+        <li class="header_menu_item header_menu_parent">
+            <a class="header_menu_link" href="/fr/louer/&new_research=1" title="">Louer</a>
+             <div class="header_sousMenu">
+                <div class="header_sousMenu_back">< Retour Louer</div>
+                <ul class="header_sousMenu_items">
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/louer/&new_research=1" title="">Tous nos biens en location</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/biens-loues/&new_research=1" title="Biens loués">Biens loués</a></li>
+                </ul>
+            </div>
+        </li>
+
+
+
+        <li class="header_menu_item header_menu_parent">
+            <span title="Sotheby's" class="header_menu_link">SOTHEBY'S</span>
+            <div class="header_sousMenu">
+                <div class="header_sousMenu_back">< Retour SOTHEBY'S</div>
+                <ul class="header_sousMenu_items">
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/maison-sothebys/" title="Maison de vente aux enchères">Maison Sotheby’s</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/articles-maison-reseau/" title="Réseau Sotheby's">Réseau</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/sothebys-international-realty/" title="Services">Services</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/parisouest-sothebys-partenariat/" title="">Partenariat</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="header_menu_item header_menu_parent">
+            <span title="Actualités" class="header_menu_link">Actualités</span>
+            <div class="header_sousMenu">
+                <div class="header_sousMenu_back">< Retour Actualités</div>
+                <ul class="header_sousMenu_items">
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/actualites/" title="Les actualités Paris Ouest Sotheby's">Toutes nos actualités</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/articles-presse/" title="Presse">Presse</a></li>
+					<li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/articles-videos/" title="Vidéos">Vidéos</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/articles-magazine-sothebys/" title="Magazines Sotheby’s">Magazines Sotheby’s</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/articles-lifestyle/" title="">Où sortir à Paris ?</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/articles-expositions-sothebys/" title="Expositions Sotheby’s">Expositions Sotheby’s</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="header_menu_item">
+            <a class="header_menu_link" href="/fr/quartiers/" title="Estimez votre bien immobilier selon le quartier de Paris ou Neuilly sur Seine">Quartiers</a>
+        </li>
+
+
+        <li class="header_menu_item header_menu_parent">
+            <span title="Agences" class="header_menu_link">Agences</span>
+            <div class="header_sousMenu">
+                <div class="header_sousMenu_back">< Retour Agences</div>
+                <ul class="header_sousMenu_items">
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/agences-immobilieres-luxe-paris/" title="Agences">Trouver une agence</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/nos-collaborateurs/" title="">Collaborateurs</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/confiez-nous-votre-recherche/" title="Confiez nous votre recherche, nos agents sont à votre écoute !">Confier votre recherche</a></li>
+                    <li class="header_sousMenu_item"><a class="header_sousMenu_link" href="/fr/recrutement/" title="">Recrutement</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="header_menu_item vendre">
+            <a href="/fr/estimation-immobilier-paris/" title="Faites estimer votre bien immobilier - Appartement ou Hotel particulier sur Paris et Neuilly sur Seine avec Paris Ouest " class="header_menu_link">Vendre avec nous</a>
+        </li>
+    </ul>
+</div>
+
+		</nav>
+	</div>
+</header>
+<div id="asideContact" class="dynamicAside">
+	<div class="dynamicAside__wrapper">
+		<div class="titre_lineGold">Contactez-nous</div>
+		<div class="container_agence">
+			<div class="container_agence_info">
+				<span class="brand">Paris Ouest (Paris 16ème - Victor Hugo)<br>Sotheby's International Realty</span>
+				<div class="ctn_info">
+					<ul>
+						<li class="address">95 Avenue Victor Hugo</li>
+						<li class="address">75116 PARIS, France</li>
+						<li class="phone"><a href="tel:+33140605000" title="+33&nbsp;1&nbsp;40&nbsp;60&nbsp;50&nbsp;00">+33&nbsp;1&nbsp;40&nbsp;60&nbsp;50&nbsp;00</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container_agence">
+			<div class="container_agence_info">
+				<span class="brand">Paris Ouest (Paris 16ème - Auteuil)<br>Sotheby's International Realty</span>
+				<div class="ctn_info">
+					<ul>
+						<li class="address">50 rue d'Auteuil</li>
+						<li class="address">75016 PARIS, France</li>
+						<li class="phone"><a href="tel:+33156265655" title="+33&nbsp;1&nbsp;56&nbsp;26&nbsp;56&nbsp;55">+33&nbsp;1&nbsp;56&nbsp;26&nbsp;56&nbsp;55</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container_agence">
+			<div class="container_agence_info">
+				<span class="brand">Paris Ouest (Paris 17ème - Etoile Monceau)<br>Sotheby's International Realty</span>
+				<div class="ctn_info">
+					<ul>
+						<li class="address">82 Avenue de Wagram</li>
+						<li class="address">75017 PARIS, France</li>
+						<li class="phone"><a href="tel:+33146222727" title="+33&nbsp;1&nbsp;46&nbsp;22&nbsp;27&nbsp;27">+33&nbsp;1&nbsp;46&nbsp;22&nbsp;27&nbsp;27</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container_agence">
+			<div class="container_agence_info">
+				<span class="brand">Paris Ouest (Neuilly-sur-Seine)<br>Sotheby's International Realty</span>
+				<div class="ctn_info">
+					<ul>
+						<li class="address">Place Sainte Foy - 2 Rue de Chézy</li>
+						<li class="address">92200 NEUILLY, France</li>
+						<li class="phone"><a href="tel:+33141430646" title="+33&nbsp;1&nbsp;41&nbsp;43&nbsp;06&nbsp;46">+33&nbsp;1&nbsp;41&nbsp;43&nbsp;06&nbsp;46</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container_agence">
+			<div class="container_agence_info">
+				<span class="brand">Paris Ouest (Hauts-de-Seine - Yvelines)<br>Sotheby's International Realty</span>
+				<div class="ctn_info">
+					<ul>
+						<li class="address">Place Sainte Foy - 2 rue de Chézy</li>
+						<li class="address">92200 NEUILLY, France</li>
+						<li class="phone"><a href="tel:+33141250000" title="+33&nbsp;1&nbsp;41&nbsp;25&nbsp;00&nbsp;00">+33&nbsp;1&nbsp;41&nbsp;25&nbsp;00&nbsp;00</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container_agence">
+			<div class="container_agence_info">
+				<span class="brand">Paris Marais<br>Sotheby's International Realty</span>
+				<div class="ctn_info">
+					<ul>
+						<li class="address">37-39 rue de Turenne</li>
+						<li class="address">75003 PARIS, France</li>
+						<li class="phone"><a href="tel:+33148871441" title="+33&nbsp;1&nbsp;48&nbsp;87&nbsp;14&nbsp;41">+33&nbsp;1&nbsp;48&nbsp;87&nbsp;14&nbsp;41</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="form_container">
+			<span class="titre_form">Envoyer un mail</span>
+			<form id="contact_header" class="form" method="post" action="/fr/contact-ajax/">
+				<div class="contact_submit_response"></div>
+				<input type="hidden" name="agence_id" id="agence_id" value="1" />
+				<p class="honey">
+					<label for="website">Veuillez laisser la valeur initiale de ce champ</label>
+					<input type="text" name="website" value="" />
+				</p>
+				
+				<div class="writable-input">
+					<input type="text" id="last_name_header" class="form__float-label-input" name="last_name" class="required">
+					<label for="last_name_header">Nom*</label>
+					<input type="hidden" name="is_required[]" value="last_name" />
+				</div>
+				<div class="writable-input">
+					<input type="tel" inputmode="tel" autocomplete="tel" id="phone_header" class="form__float-label-input phoneInput" name="phone">
+					<label for="phone_header">Téléphone ¹</label>
+				</div>
+				<div class="writable-input">
+					<input type="text" id="email_header" class="form__float-label-input" name="email" class="required">
+					<label for="email_header">Email*</label>
+					<input type="hidden" name="is_required[]" value="email" />
+				</div>
+				<div class="writable-input input_textarea">
+					<textarea name="message" class="form__float-label-input" id="message_header"></textarea>
+					<label for="message_header">Message</label>
+				</div>
+				<p class="honey">
+					<label for="5hg82a4q6ou8jjlduiao7fsjqf">Veuillez laisser la valeur initiale de ce champ</label>
+					<input type="text" name="5hg82a4q6ou8jjlduiao7fsjqf" id="5hg82a4q6ou8jjlduiao7fsjqf" value="5hg82a4q6ou8jjlduiao7fsjqf" />
+				</p>
+				<input type="hidden" name="subject" value="Demande de renseignement" />
+				<button id="send_email" class="btn_submit js-contactFormSubmit" type="submit">Envoyer <i class="ico_arrow_btn ico_arrow_btn_white"></i><span class="inlineLoader"></span></button>
+				<input type="hidden" name="send_email">
+			</form>
+			
+		</div>
+	</div>
+
+</div>
+<div id="asidePreferences" class="dynamicAside">
+	<div class="dynamicAside__wrapper">
+		<div class="titre_lineGold">Préférences</div>
+		<div class="language">
+			<p class="prefSelect__label" data-pref-target="selectLang">Langues</p>
+			<div class="prefSelect" data-id="selectLang">
+				<div class="prefSelect__option selected" data-value="fran&ccedil;ais">
+					<a href="/datas/biens/images/4431/gallery/4431_08-2023-05-17-1606.jpg">
+						<img src="/theme/_siteSIR2021.sirpariwe/images/flags/fr.png" alt="fr">
+						fran&ccedil;ais
+					</a>
+				</div>
+				<div class="prefSelect__option " data-value="english">
+					<a href="/en/datas/biens/images/4431/gallery/4431_08-2023-05-17-1606.jpg">
+						<img src="/theme/_siteSIR2021.sirpariwe/images/flags/en.png" alt="en">
+						english
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="devise">
+			<form id="devise_form_header" method="post">
+				<p class="prefSelect__label" data-pref-target="selectCurrency">Devises</p>
+				<select name="devise" id="selectCurrency" class="prefSelect__select">
+					<option value="EUR" selected="selected">&euro; (EUR)</option>
+					<option value="USD" >USD</option>
+					<option value="JPY" >JPY</option>
+					<option value="BGN" >BGN</option>
+					<option value="CZK" >CZK</option>
+					<option value="DKK" >DKK</option>
+					<option value="GBP" >GBP</option>
+					<option value="HUF" >HUF</option>
+					<option value="PLN" >PLN</option>
+					<option value="RON" >RON</option>
+					<option value="SEK" >SEK</option>
+					<option value="CHF" >CHF</option>
+					<option value="NOK" >NOK</option>
+					<option value="HRK" >HRK</option>
+					<option value="RUB" >RUB</option>
+					<option value="TRY" >TRY</option>
+					<option value="AUD" >AUD</option>
+					<option value="BRL" >BRL</option>
+					<option value="CAD" >CAD</option>
+					<option value="CNY" >CNY</option>
+					<option value="HKD" >HKD</option>
+					<option value="IDR" >IDR</option>
+					<option value="ILS" >ILS</option>
+					<option value="INR" >INR</option>
+					<option value="KRW" >KRW</option>
+					<option value="MXN" >MXN</option>
+					<option value="MYR" >MYR</option>
+					<option value="NZD" >NZD</option>
+					<option value="PHP" >PHP</option>
+					<option value="SGD" >SGD</option>
+					<option value="THB" >THB</option>
+					<option value="ZAR" >ZAR</option>
+				</select>
+			</form>
+		</div>
+	</div>
+</div>
+<form id="moteur" class="moteur dynamicAside dynamicAside--moteur js-mainMoteurForm" method="post" :action="action">
+    <div class="dynamicAside__wrapper">
+        <div class="titre_lineGold">Ma recherche</div>
+        <div class="ctn_moteur_link">
+            <button class="moteur_link" type="button" :class="{current: transac === 'Vente'}" title="Appartements et Hotels particuliers de luxe en vente à Paris et Neuilly sur Seine - Immobilier de prestige" @click="transac = 'Vente'">Acheter</button>
+            <button class="moteur_link" type="button" :class="{current: transac === 'Location'}" title="" @click="transac = 'Location'">Louer</button>
+            <!-- <button class="moteur_link" type="button" :class="{current: transac === 'LocSaison'}" title="" @click="transac = 'LocSaison'"></button> -->
+        </div>
+        <filtres-toggle :label="getFilledLabel('Localisation', currentSecteurs, true)" :is-filled="secteursIsFilled">
+            <div class="btnToggleGroup">
+                <button class="btnToggle" :class="{ active: secteursMode === 'list' }" @click="secteursMode = 'list'" type="button">Liste</button>
+                <button class="btnToggle" :class="{ active: secteursMode === 'map' }" @click="secteursMode = 'map'" type="button">Carte</button>
+            </div>
+            <vue-checkbox-group
+                class="vueCheckboxes--scroll"
+                v-show="secteursMode === 'list'"
+                v-model="currentSecteurs"
+                :options="secteurs"
+                :option-comparator="secteursComparator"
+            ></vue-checkbox-group>
+            <moteur-map-svg v-show="secteursMode === 'map'" v-model="currentSecteurs"></moteur-map-svg>
+        </filtres-toggle>
+        <filtres-toggle :label="getFilledLabel('Villes', currentCities, true)" :is-filled="citiesIsFilled">
+            <vue-checkbox-group
+                class="vueCheckboxes--scroll"
+                v-model="currentCities"
+                :options="cities"
+                :option-comparator="secteursComparator"
+            ></vue-checkbox-group>
+        </filtres-toggle>
+            <filtres-toggle :label="getFilledLabel('Type de bien', currentTypes, true)" :is-filled="typesIsFilled">
+                <vue-checkbox-group class="vueCheckboxes--2colDesktop" v-model="currentTypes" :options="types"></vue-checkbox-group>
+            </filtres-toggle>
+        <filtres-toggle label="Budget">
+                <range-input
+                    unit="€"
+                    ref="rangeInputPrice0"
+                    init-min="1525.00"
+                    init-max="48000000.00"
+                    db-column="sold_price"
+                    v-model="price"
+                    min-name="min"
+                    max-name="max"
+                    :display-mention="transac === 'LocSaison' ? ' / semaine' : ''"
+                ></range-input>
+        </filtres-toggle>
+
+        <div ref="moteurHidden" style="display: none;">
+            <filtres-toggle v-show="transac !== 'LocSaison'" label="Pièces" :alway-show-label="true">
+                <range-input :allowed-transactions="['Vente', 'Location']" name="pieces_range" :init-min="1" :init-max="8" :init-val="[]"></range-input>
+            </filtres-toggle>
+            <filtres-toggle v-show="transac === 'LocSaison'" label="Personnes" :alway-show-label="true">
+                <range-input :allowed-transactions="['LocSaison']" name="nb_pers" :init-min="1" :init-max="20" :init-val="[]"></range-input>
+            </filtres-toggle>
+            <filtres-toggle label="Chambres" :alway-show-label="true">
+                <range-input name="chambres_range" :init-min="1" :init-max="8" :init-val="[]"></range-input>
+            </filtres-toggle>
+            <filtres-toggle label="Surface" :alway-show-label="true">
+                <range-input unit="surface" min-name="surface" max-name="surface_max" init-min="10.82" init-max="1300" db-column="surface" :init-val="[,]"></range-input>
+            </filtres-toggle>
+            <filtres-toggle v-show="transac !== 'LocSaison'" label="Terrain" :alway-show-label="true">
+                <range-input :allowed-transactions="['Vente', 'Location']" unit="surface" min-name="terrain_min" max-name="terrain_max" init-min="12" init-max="630000" db-column="surface_terrain" :init-val="[,]"></range-input>
+            </filtres-toggle>
+            <filtres-toggle :label="getFilledLabel('Style de vie', currentLifestyles)" :is-filled="lifestyleIsFilled">
+                <vue-checkbox-group class="vueCheckboxes--2col" v-model="currentLifestyles" :options="lifestyles" :multiple="false"></vue-checkbox-group>
+            </filtres-toggle>
+            <filtres-toggle :label="getFilledLabel('Prestations', currentPrestations)" :is-filled="prestationsIsFilled">
+                <vue-checkbox-group class="vueCheckboxes--2col" v-model="currentPrestations" :options="prestations"></vue-checkbox-group>
+            </filtres-toggle>
+            <search-ref
+                value=""
+                placeholder="Saisir une réference :"
+                button-label="voir le bien"
+                not-found-label="réference introuvable"
+            ></search-ref>
+            </div>
+            <button class="btn btn_more_filter" ref="showMoreFiltresBtn" type="button" v-html="showMore ? 'Moins de filtres' : 'Plus de filtres'">Plus de filtres</button>
+    </div>
+    <div class="filtersFloatCtn">
+        <button class="btnClean" type="button" @click="clear">Effacer les filtres</button>
+        <button class="btn btnGoldBorder" type="submit" data-d-aside-closer>Rechercher <i class="ico_arrow_btn ico_arrow_btn_white"></i></button>
+    </div>
+    <input v-for="item in currentSecteurs" name="geo_secteur[]" type="hidden" :value="item.id" checked>
+    <input type="hidden" name="flagval_secteurs" :value="serializedSecteurs">
+    <input v-for="item in currentCities" name="geo_multi[]" type="hidden" :value="item.value" checked>
+    <input type="hidden" name="flagval_cities" :value="serializedCities">
+    <input v-for="type in currentTypes" type="hidden" :name="type.name" :value="type.value" checked>
+    <input v-for="lifestyle in currentLifestyles" type="hidden" :name="lifestyle.name" :value="lifestyle.value" checked>
+    <input v-for="prestation in currentPrestations" type="hidden" :name="prestation.name" :value="prestation.value" checked>
+    <input ref="inputCurrentMap" type="hidden" name="flagval_current_map" data-value="" v-model="currentMap">
+    <input type="hidden" name="form_post">
+    <input type="hidden" name="nr" value="1">
+</form>
+
+
+    <section  class="Error">
+    <div class="container_main">
+		<div class="container_1400">
+            <h1 class="titre_H1">Page introuvable</h1>
+        </div>
+        <div class="container_1200">
+            <p>Nous ne pouvons accéder à votre demande car la page demandée n'existe pas ou plus sur notre site.</p>
+        </div>
+        <div class="container_grid_1200">
+    <div class="ctn_article">
+        <ul>
+            <h2><a href="/fr/immobilier-paris/&new_research=1" title="">Nos biens</a></h2>
+            <li><a href="/fr/vente-immobilier-luxe-paris/&new_research=1" title="Appartements et Hotels particuliers de luxe en vente à Paris et Neuilly sur Seine - Immobilier de prestige">Acheter</a></li>
+            <li><a href="/fr/louer/&new_research=1" title="">Louer</a></li>
+            <li><a href="/fr/immeubles/&new_research=1" title="Nos immeubles en vente">Immeubles</a></li>
+            <li><a href="/fr/programmes-neufs/" title="Programmes neufs en vente">Programmes neufs</a></li>
+            <li><a href="/fr/jardin-terrasse/&new_research=1" title="Jardins et terrasses">Jardins & Terrasses</a></li>
+            <li><a href="/fr/selection/" title="Ma sélection">Ma Sélection</a></li>
+            <li><a href="/fr/biens-vendus/&new_research=1" title="Les Appartements et Hotels particuliers que nous avons vendu sur Paris et Neuilly sur Seine - Immobilier de prestige">Biens vendus</a></li>
+            <li><a href="/fr/biens-loues/&new_research=1" title="Biens loués">Biens loués</a></li>
+        </ul><ul>
+            <h2>Agences</h2>
+            <li><a href="/fr/agences-immobilieres-luxe-paris/" title="Agences">Trouver une agence</a></li>
+            <li><a href="/fr/nos-collaborateurs/" title="">Collaborateurs</a></li>
+            <li><a href="/fr/estimation-immobilier-paris/" title="Faites estimer votre bien immobilier - Appartement ou Hotel particulier sur Paris et Neuilly sur Seine avec Paris Ouest ">Vendre avec nous</a></li>
+            <li><a href="/fr/confiez-nous-votre-recherche/" title="Confiez nous votre recherche, nos agents sont à votre écoute !">Confier votre recherche</a></li>
+            <li><a href="/fr/mentions-legales-bareme/" title="Mentions légales & Barème immobilier de prestige Paris et Neuilly sur Seine">Mentions légales / Barème</a></li>
+        </ul><ul>
+            <h2><a href="/fr/sothebys-international-realty/" title="Services">Services</a></h2>
+            <li><a href="/fr/pourquoi-sothebys/" title="Pourquoi choisir Sotheby's International Realty pour vos actions immobilières ?">Pourquoi choisir Sotheby’s Int. Realty</a></li>
+            <li><a href="/fr/paris-neuilly-listing/&new_research=1" title="Appartement et Hotel particulier de luxe à vendre à Paris et Neuilly sur Seine">Paris et Neuilly</a></li>
+            <li><a href="https://www.sothebysrealty-france.com/fr/vente-proprietes-de-luxe/&new_research=1" title="France">France</a></li>
+            <li><a href="https://www.sothebysrealty.com/fra/category/united-states-of-america" title="Amérique">Amérique</a></li>
+            <li><a href="https://www.sothebysrealty.com/fra/category/asia" title="Asie">Asie</a></li>
+            <li><a href="https://www.sothebysrealty.com/fra/category/destinations-europe" title="Europe">Europe</a></li>
+            <li><a href="https://www.sothebysrealty.com/fra/category/africa" title="Afrique">Afrique</a></li>
+            <li><a href="https://www.sothebysrealty.com/fra/category/middle-east" title="Moyen Orient">Moyen Orient</a></li>
+        </ul><ul>
+            <h2><a href="/fr/actualites/" title="Les actualités Paris Ouest Sotheby's">Toutes nos actualités</a></h2>
+            <li><a href="/fr/articles-presse/" title="Presse">Presse</a></li>
+            <li><a href="/fr/articles-videos/" title="Vidéos">Vidéos</a></li>
+            <li><a href="/fr/articles-magazine-sothebys/" title="Magazines Sotheby’s">Magazines Sotheby’s</a></li>
+            <li><a href="/fr/articles-lifestyle/" title="">Où sortir à Paris ?</a></li>
+            <li><a href="/fr/articles-expositions-sothebys/" title="Expositions Sotheby’s">Expositions Sotheby’s</a></li>
+        </ul><ul>
+            <h2><a href="/fr/maison-sothebys/" title="Maison de vente aux enchères">Maison Sotheby’s</a></h2>
+            <li><a href="/fr/ethique-sothebys/" title="Éthique Sotheby’s">Éthique Sotheby’s</a></li>
+            <li><a href="/fr/articles-maison-patrimoine-sothebys/" title="Patrimoine Sotheby’s">Patrimoine Sotheby’s</a></li>
+            <li><a href="/fr/articles-maison-service-sur-mesure/" title="Service-sur-mesure">Service-sur-mesure</a></li>
+            <li><a href="/fr/articles-maison-lois-fiscales/" title="Lois fiscales">Lois fiscales</a></li>
+        </ul><ul>
+            <h2><a href="/fr/parisouest-sothebys-partenariat/" title="">Partenariat</a></h2>
+            <li><a href="/fr/articles-maison-reseau/" title="Réseau Sotheby's">Réseau</a></li>
+            <li><a href="/fr/articles-maison-evenementiel/" title="Événementiel">Événementiel</a></li>
+            <li><a href="/fr/articles-maison-partenariat-marque-de-prestige/" title="Partenariat marque de prestige">Partenariat marque de prestige</a></li>
+            <li><a href="/fr/articles-maison-sponsoring-golf/" title="Sponsoring golf">Sponsoring golf</a></li>
+            <li><a href="/fr/articles-maison-sponsoring-equestre/" title="Sponsoring equestre">Sponsoring equestre</a></li>
+        </ul><ul>
+            <h2><a href="/fr/rive-gauche/" title="">Rive Gauche</a></h2>
+            <li><a href="/fr/immobilier-paris-rive-gauche/&new_research=1" title="">Paris Rive gauche</a></li>
+            <li><a href="/fr/immobilier-paris-5eme/&new_research=1" title="">Paris 5</a></li>
+            <li><a href="/fr/immobilier-paris-6eme/&new_research=1" title="">Paris 6</a></li>
+            <li><a href="/fr/immobilier-paris-7eme/&new_research=1" title="">Paris 7</a></li>
+        </ul><ul>
+            <h2><a href="/fr/rive-droite/" title="">Rive Droite</a></h2>
+            <li><a href="/fr/immobilier-paris-rive-droite/&new_research=1" title="">Paris Rive droite</a></li>
+            <li><a href="/fr/immobilier-paris-4eme/&new_research=1" title="">Paris 1, 2, 3 et 4</a></li>
+            <li><a href="/fr/immobilier-paris-8eme/&new_research=1" title="">Paris 8</a></li>
+            <li><a href="/fr/immobilier-paris-11eme/&new_research=1" title="">Paris 11</a></li>
+            <li><a href="/fr/immobilier-paris-12eme/&new_research=1" title="">Paris 12</a></li>
+            <li><a href="/fr/immobilier-paris-16eme/&new_research=1" title="">Paris 16</a></li>
+            <li><a href="/fr/immobilier-paris-17eme/&new_research=1" title="">Paris 17</a></li>
+            <li><a href="/fr/immobilier-paris-8eme-17eme/&new_research=1" title="">Paris 8 et 17</a></li>
+        </ul><ul>
+            <h2><a href="/fr/proximite-paris/" title="">Proximité Paris</a></h2>
+            <li><a href="/fr/immobilier-neuilly-sur-seine/&new_research=1" title="">Neuilly-sur-Seine</a></li>
+            <li><a href="/fr/immobilier-levallois-perret/&new_research=1" title="">Levallois-Perret</a></li>
+            <li><a href="/fr/immobilier-boulogne-billancourt/&new_research=1" title="">Boulogne-Billancourt</a></li>
+            <li><a href="/fr/immobilier-yvelines/&new_research=1" title="">Yvelines</a></li>
+            <li><a href="/fr/immobilier-hauts-de-seine/&new_research=1" title="">Hauts de Seine</a></li>
+            <li><a href="/fr/immobilier-val-de-marne/&new_research=1" title="">Val de Marne</a></li>
+        </ul><ul>
+            <h2><a href="/fr/style-de-vie-immobilier-luxe/" title="">Style de Vie</a></h2>
+            <li><a href="/fr/hotels-particuliers-maisons/&new_research=1" title="Hôtel particuliers et maisons">Hôtel particuliers et maisons</a></li>
+            <li><a href="/fr/vue-monuments-seine/&new_research=1" title="Vue Monuments et Seine">Vue Monuments et Seine</a></li>
+            <li><a href="/fr/proximite-golf-tennis/&new_research=1" title="Proximité Golf et Tennis">Golf & Tennis</a></li>
+            <li><a href="/fr/jardin-terrasse/&new_research=1" title="Jardins et terrasses">Jardins & Terrasses</a></li>
+        </ul>
+    </div>
+    <div class="ctn_article ctn_article_quartiers">
+        <h2><a href="/fr/quartiers/" title="Estimez votre bien immobilier selon le quartier de Paris ou Neuilly sur Seine">Quartiers</a></h2>
+        <ul>
+            <h3>Paris 8ème</h3>
+            <li><a href="/fr/estimation-quartier-paris-8eme-triangle-d-or/" title="Estimation immobilière à Paris 8eme Triangle d'Or">Triangle d’Or</a></li>
+            <li><a href="/fr/estimation-quartier-paris-8eme-champs-elysees-etoile/" title="Estimation immobilière à Paris 8eme Champs Elysées / Étoile">Champs Elysée/Etoile</a></li>
+            <li><a href="/fr/estimation-quartier-paris-8eme-elysee-saint-honore/" title="Estimation immobilière à Paris 8ème Elysée / Saint Honoré">Elysée/Saint-Honoré</a></li>
+        </ul><ul>
+           <h3>Paris 15ème</h3>
+            <li><a href="/fr/paris-15eme-introduction/" title="Estimation immobilière à Paris 15ème">Paris 15 - Introduction</a></li>
+             <li><a href="/fr/estimation-quartier-paris-15eme-cambronne/" title="Estimation immobilière à Paris 15ème Cambronne">Cambronne</a></li>
+             <li><a href="/fr/estimation-quartier-paris-15eme-montparnasse/" title="Estimation immobilière à Paris 15ème Montparnasse">Montparnasse</a></li>
+             <li><a href="/fr/estimation-quartier-paris-15eme-commerce/" title="Estimation immobilière à Paris 15ème Commerce">Commerce</a></li>
+             <li><a href="/fr/estimation-quartier-paris-15eme-dupleix-motte-picquet/" title="Estimation immobilière à  Paris 15ème Dupleix - Motte Picquet">Dupleix - Motte Picquet</a></li>
+             <li><a href="/fr/estimation-quartier-paris-15eme-vaugirard/" title="Estimation immobilière à Paris 15ème Vaugirard">Vaugirard</a></li>
+         </ul><ul>
+            <h3>Paris 16ème</h3>
+            <li><a href="/fr/estimation-quartier-paris-16eme-dauphine/" title="Estimation immobilière à Paris 16eme Dauphine">Dauphine</a></li>
+            <li><a href="/fr/estimation-quartier-paris-16eme-trocadero/" title="Estimation immobilière à Paris 16eme Trocadero">Trocadéro</a></li>
+            <li><a href="/fr/estimation-quartier-paris-16eme-iena/" title="Estimation immobilière à Paris 16ème Iéna">Iéna</a></li>
+            <li><a href="/fr/estimation-quartier-paris-16eme-muette/" title="Estimation immobilière à Paris 16ème Muette">Muette</a></li>
+            <li><a href="/fr/estimation-quartier-paris-16eme-porte-auteuil/" title="Estimation immobilière à Paris 16ème Porte d'Auteuil">Porte d’Auteuil</a></li>
+            <li><a href="/fr/estimation-quartier-paris-16eme-victor-hugo/" title="Estimation immobilière à Paris 16ème Victor Hugo">Victor Hugo</a></li>
+            <li><a href="/fr/estimation-quartier-paris-16eme-villas-voies-privees/" title="Estimation immobilière de villas et voies privées à Paris 16">Villas et voies privées</a></li>
+        </ul><ul>
+        <h3>Paris 17ème</h3>
+            <li><a href="/fr/estimation-quartier-paris-17eme-monceau/" title="Estimation immobilière à Paris 17ème Monceau">Monceau</a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-etoile/" title="Estimation immobilière à Paris 17ème Etoile">Etoile</a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-courcelles/" title="Estimation immobilière à Paris 17eme Courcelles">Courcelles</a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-ternes/" title="Estimation immobilière à Paris 17eme Ternes">Ternes</a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-wagram/" title="Estimation immobilière à Paris 17eme Wagram">Wagram</a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-villiers/" title="Estimation immobilière à Paris 17eme Villiers">Villiers </a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-pereire/" title="Estimation immobilière à Paris 17ème Pereire">Pereire</a></li>
+            <li><a href="/fr/estimation-quartier-paris-17eme-batignolles/" title="Estimation immobilière à Paris 17ème Batignolles">Batignolles</a></li>
+        </ul><ul>
+        <h3>Neuilly-sur-Seine</h3>
+            <li><a href="/fr/estimation-quartier-neuilly-st-james/" title="Estimation immobilière à Neuilly Saint James">St James</a></li>
+            <li><a href="/fr/estimation-quartier-neuilly-bagatelle/" title="Estimation immobilière à Neuilly Bagatelle">Bagatelle</a></li>
+            <li><a href="/fr/estimation-quartier-neuilly-ile-de-la-jatte/" title="Estimation immobilière à Neuilly Ile de la Jatte">L’ile de la Jatte</a></li>
+            <li><a href="/fr/estimation-quartier-neuilly-neuilly-bois/" title="Estimation immobilière à Neuilly Bois">Neuilly Bois</a></li>
+            <li><a href="/fr/estimation-quartier-neuilly-pasteur/" title="Estimation immobilière à Neuilly Pasteur">Pasteur</a></li>
+            <li><a href="/fr/estimation-quartier-neuilly-sablons/" title="Estimation immobilière à Neuilly sur Seine Sablons">Sablons</a></li>
+        </ul><ul>
+        <h3>Paris Marais</h3>
+            <li><a href="/fr/histoire-marais-paris/" title="Le Marais - Histoire">Le Marais - Histoire</a></li>
+            <li><a href="/fr/estimation-immobiliere-paris-3eme/" title="Estimation immobilière à Paris 3ème ">Le Marais - Paris 3</a></li>
+            <li><a href="/fr/estimation-immobiliere-paris-4eme/" title="Estimation immobilière à Paris 4ème Le Marais">Le Marais - Paris 4</a></li>
+        </ul><ul>
+        <h3>Paris Est</h3>
+            <li><a href="/fr/estimation-immobiliere-paris-11eme/" title="Estimation immobilière à Paris 11ème">Paris 11</a></li>
+            <li><a href="/fr/marais-paris12/" title="Paris 12">Paris 12</a></li>
+            <li><a href="/fr/paris-19eme/" title="Paris 19">Paris 19</a></li>
+            <li><a href="/fr/paris-20eme/" title="Paris 20">Paris 20</a></li>
+        </ul><ul>
+           <h3>Yvelines</h3>
+            <li><a href="/fr/saint-germain-en-laye/" title="Saint-Germain-en-Laye">Saint-Germain-en-Laye</a></li>
+            <li><a href="/fr/versailles/" title="Versailles">Versailles</a></li>
+            <li><a href="/fr/le-vesinet/" title="Le Vésinet">Le Vésinet</a></li>
+        </ul><ul>
+           <h3>Hauts-de-Seine</h3>
+            <li><a href="/fr/puteaux/" title="Puteaux">Puteaux</a></li>
+            <li><a href="/fr/sevres/" title="Sèvres">Sèvres</a></li>
+            <li><a href="/fr/suresnes/" title="Suresnes">Suresnes</a></li>
+            <li><a href="/fr/meudon/" title="Meudon">Meudon</a></li>
+        </ul>
+        <ul>
+            <h3>Val de Marne</h3>
+             <li><a href="/fr/st-mande/" title="St Mandé">St Mandé</a></li>
+             <li><a href="/fr/fontenay-sous-bois/" title="Fontenay-sous-Bois ">Fontenay-sous-Bois </a></li>
+             <li><a href="/fr/charenton-le-pont/" title="Charenton-le-Pont">Charenton-le-Pont</a></li>
+             <li><a href="/fr/nogent-sur-marne/" title="Nogent sur Marne ">Nogent sur Marne </a></li>
+             <li><a href="/fr/saint-maurice/" title="Saint Maurice ">Saint Maurice </a></li>
+             <li><a href="/fr/joinville-le-pont/" title="Joinville le Pont">Joinville le Pont</a></li>
+             <li><a href="/fr/vincennes/" title="Vincennes">Vincennes</a></li>
+         </ul>
+    </div>
+</div>
+
+
+    </div>
+</section>
+
+    <footer class="footer">
+	<div class="footer_content">
+		<div class="footer_content_top">
+			<div class="left">
+				<div class="footer_logo">
+					<img class="footer_logo_img" src="/theme/_siteSIR2021.sirpariwe/images/logo_blanc.svg" alt="Paris Ouest Sotheby's International Realty - "/>
+				</div>
+				<div class="footer_socialMedia">
+					<ul class="footer_socialMedia_ul">
+						<li class="facebook"><a href="https://m.facebook.com/ParisOuestSIR/" title="" target="_blank"> </a></li>
+						<li class="instagram"><a href="https://www.instagram.com/parisouestsir/?hl=fr" title="" target="_blank"> </a></li>
+						<li class="pinterest"><a href="https://www.pinterest.fr/parisouestSIR/" title="" target="_blank"> </a></li>
+						<li class="youtube"><a href="https://www.youtube.com/channel/UCPvVw-gbYafhYkhh_YjIRqQ" title="Youtube" target="_blank"> </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_menu right">
+				<ul class="footer_menu_colonne col1">
+					<span class="footer_menu_title">Nos biens</span>
+					<li><a href="/fr/vente-immobilier-luxe-paris/&new_research=1" title="Appartements et Hotels particuliers de luxe en vente à Paris et Neuilly sur Seine - Immobilier de prestige">Acheter</a></li>
+					<li><a href="/fr/louer/&new_research=1" title="">Louer</a></li>
+					<li><a href="/fr/immeubles/&new_research=1" title="Nos immeubles en vente">Immeubles</a></li>
+					<li><a href="/fr/programmes-neufs/" title="Programmes neufs en vente">Programmes neufs</a></li>
+					<li><a href="/fr/jardin-terrasse/&new_research=1" title="Jardins et terrasses">Jardins & Terrasses</a></li>
+					<li><a href="/fr/biens-vendus/&new_research=1" title="Les Appartements et Hotels particuliers que nous avons vendu sur Paris et Neuilly sur Seine - Immobilier de prestige">Biens vendus</a></li>
+                    <li><a href="/fr/biens-loues/&new_research=1" title="Biens loués">Biens loués</a></li>
+					<li><a href="/fr/style-de-vie-immobilier-luxe/" title="">Style de Vie</a></li>
+                    <li><a href="/fr/quartiers/" title="Estimez votre bien immobilier selon le quartier de Paris ou Neuilly sur Seine">Quartiers</a></li>
+					<li><a rel="nofollow" href="/fr/selection/" title="Ma sélection">Ma Sélection</a></li>
+				</ul>
+				<ul class="footer_menu_colonne col2">
+					<span class="footer_menu_title">SOTHEBY'S</span>
+					<li><a href="/fr/maison-sothebys/" title="Maison de vente aux enchères">Maison Sotheby’s</a></li>
+					<li><a href="/fr/articles-maison-reseau/" title="Réseau Sotheby's">Réseau</a></li>
+					<li><a href="/fr/sothebys-international-realty/" title="Services">Services</a></li>
+					<li><a href="/fr/parisouest-sothebys-partenariat/" title="">Partenariat</a></li>
+				</ul>
+				<ul class="footer_menu_colonne">
+					<span class="footer_menu_title">Actualités</span>
+					<li><a href="/fr/actualites/" title="Les actualités Paris Ouest Sotheby's">Toutes nos actualités</a></li>
+					<li><a href="/fr/articles-presse/" title="Presse">Presse</a></li>
+					<li><a href="/fr/articles-videos/" title="Vidéos">Vidéos</a></li>
+                    <li><a href="/fr/articles-magazine-sothebys/" title="Magazines Sotheby’s">Magazines Sotheby’s</a></li>
+                    <li><a href="/fr/articles-lifestyle/" title="Où sortir à Paris ?">Où sortir à Paris ?</a></li>
+                    <li><a href="/fr/articles-expositions-sothebys/" title="Expositions Sotheby’s">Expositions Sotheby’s</a></li>
+				</ul>
+				<ul class="footer_menu_colonne col3">
+					<span class="footer_menu_title">Agences</span>
+					<li><a href="/fr/agences-immobilieres-luxe-paris/" title="Agences">Trouver une agence</a></li>
+					<li><a href="/fr/nos-collaborateurs/" title="">Collaborateurs</a></li>
+					<li><a href="/fr/estimation-immobilier-paris/" title="Faites estimer votre bien immobilier - Appartement ou Hotel particulier sur Paris et Neuilly sur Seine avec Paris Ouest ">Vendre avec nous</a></li>
+					<li><a href="/fr/confiez-nous-votre-recherche/" title="Confiez nous votre recherche, nos agents sont à votre écoute !">Confier votre recherche</a></li>
+					<li><a href="/fr/recrutement/" title="">Recrutement</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="footer_content_bottom">
+			<div class="footer_seo">
+
+				<h2 class="footer_baseline">Paris Ouest Sotheby's International Realty, agence immobilière à Paris : spécialiste de l'immobilier de luxe et de prestige</h2>
+
+				<nav class="footer_link_seo">
+					<ul>
+						<li><a class="seo" href="/fr/appartement-luxe-paris/&new_research=1" title="">Appartement de luxe Paris</a></li>
+						<li><a class="seo" href="/fr/hotel-particulier-paris/&new_research=1" title="">Achat Hotel Particulier Paris</a></li>
+					</ul>
+					<ul>
+						<li><a class="seo" href="/fr/maison-luxe-paris/&new_research=1" title="">Achat Maisons de Prestige Paris</a></li>
+						<li><a class="seo" href="/fr/appartement-vue-tour-eiffel/&new_research=1" title="">Propriétés vue Tour Eiffel</a></li>
+						<li><a class="seo" href="/fr/vente-appartement-neuilly-sur-seine/&new_research=1" title="Appartement à vendre à Neuilly sur Seine">Appartement à vendre à Neuilly sur Seine</a></li>
+					</ul>
+					<ul>
+						<li><a class="seo" href="/fr/penthouse-paris/&new_research=1" title="">Penthouse à Paris</a></li>
+						<li><a class="seo" href="/fr/immobilier-terrasse-paris/&new_research=1" title="">Appartements avec terrasse à Paris</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer_link_sothebys">
+				<h3><a href="https://www.sothebysrealty-france.com/fr/" title="Immobilier de luxe et de prestige Sotheby's International Realty France &amp; Monaco" target="_blank">Immobilier de luxe et de prestige Sotheby's International Realty France &amp; Monaco</a></h3><br />
+				<a href="https://www.sothebys.com/" title="Sotheby's Auction House" target="_blank">Sotheby's Auction House</a>
+				<a href="https://www.sothebysrealty.com/fra" title="Sotheby's International Realty" target="_blank">Sotheby's International Realty</a>
+			</div>
+			<p class="footer_sentence">Sotheby's International Realty ® est une marque déposée licenciée en France et à Monaco à Sotheby's International Realty France - Monaco.<br>Chaque agence est une entreprise indépendante exploitée de façon autonome.</p>
+			<div class="footer_link_mentions">
+				<a class="mentions" rel="nofollow" href="/fr/mentions-legales-bareme/" title="Mentions légales & Barème immobilier de prestige Paris et Neuilly sur Seine">Mentions légales / Barème</a>
+				<a href="#tarteaucitron" rel="nofollow" class="js-trigger-cookie">Gestion des cookies</a>
+				<a class="plansite" href="/fr/plan-du-site/" title="Plan du site">Plan du site</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</div>
+<div class="fakeScrollbar"></div>
+<div id="fullScreenFilter" data-d-aside-closer data-toolbox-closer></div>
+<div id="dynamicAsideCloseCross"><span class="closeCross" data-d-aside-closer></span></div>
+
+</body>
+</html>

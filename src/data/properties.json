@@ -1,0 +1,273 @@
+{
+  "properties": [
+    {
+      "id": "apt_11_trocadero",
+      "type": "buy",
+      "title": "Prestige Étoile - Trocadéro",
+      "price": "1 150 000 €",
+      "location": "Paris 16ème",
+      "features": "120 m² • 4 Pièces",
+      "description": "Au cœur du très prisé quartier de l'Étoile, découvrez ce somptueux appartement de réception de 120 m² niché au 4ème étage d'un immeuble haussmannien de grand standing. Rénové par un architecte de renom, il offre une majestueuse galerie d’entrée ouvrant sur un double séjour baigné de lumière avec vue latérale sur la Tour Eiffel. Parquet d'époque, cheminées en marbre, moulures délicates et une suite parentale avec dressing sur mesure et salle de bains en onyx complètent ce bien d'exception.",
+      "images": [
+        "/images/apt_11/img_01.png",
+        "/images/apt_11/img_02.png",
+        "/images/apt_11/img_03.png",
+        "/images/apt_11/img_04.png",
+        "/images/apt_11/img_05.png",
+        "/images/apt_11/img_06.png",
+        "/images/apt_11/img_07.png",
+        "/images/apt_11/img_08.png",
+        "/images/apt_11/img_09.png",
+        "/images/apt_11/img_10.png",
+        "/images/apt_11/img_11.png",
+        "/images/apt_11/img_12.png"
+      ]
+    },
+    {
+      "id": "apt_12_neuilly",
+      "type": "buy",
+      "title": "Penthouse - Neuilly-sur-Seine",
+      "price": "1 280 000 €",
+      "location": "Neuilly-sur-Seine",
+      "features": "110 m² • 4 Pièces",
+      "description": "Véritable écrin suspendu au dernier étage d'une résidence de prestige très sécurisée à Neuilly-sur-Seine. Ce penthouse rare de 110 m² se prolonge par une époustouflante terrasse arborée de 80 m² plein sud, offrant une vue panoramique sans aucun vis-à-vis sur le bois de Boulogne. L'espace de vie cathédrale de 60 m² intégralement vitré comprend une cuisine équipée ouverte, deux suites avec salles d'eau attenantes, et bénéficie de prestations domotiques très haut de gamme.",
+      "images": [
+        "/images/apt_12/img_01.png",
+        "/images/apt_12/img_02.png",
+        "/images/apt_12/img_03.png",
+        "/images/apt_12/img_04.png"
+      ]
+    },
+    {
+      "id": "apt_13_invalides",
+      "type": "buy",
+      "title": "Vue Invalides - Gros Caillou",
+      "price": "1 390 000 €",
+      "location": "Paris 7ème",
+      "features": "140 m² • 5 Pièces",
+      "description": "Situé dans le prestigieux quartier du Gros Caillou, au 5ème étage avec ascenseur d'un somptueux immeuble en pierre de taille, cet appartement familial et de réception de 140 m² offre des vues spectaculaires et dégagées sur le dôme des Invalides. Il se compose d'une triple réception de 70 m² ornée de boiseries classiques, d'une cuisine dînatoire haut de gamme, de trois spacieuses chambres sur cour au calme absolu, et de deux salles de bains en marbre.",
+      "images": [
+        "/images/apt_13/img_01.png",
+        "/images/apt_13/img_02.png",
+        "/images/apt_13/img_03.png",
+        "/images/apt_13/img_04.png",
+        "/images/apt_13/img_05.png"
+      ]
+    },
+    {
+      "id": "apt_14_marais",
+      "type": "buy",
+      "title": "Appartement - Marais",
+      "price": "3 200 000 €",
+      "location": "Paris 3ème",
+      "features": "180 m² • 6 Pièces",
+      "description": "Une perle rare cachée au fond d'une sublime cour pavée et arborée du Marais historique. Cet appartement d'architecte de 180 m², pensé comme une maison de ville, allie le charme des pierres apparentes au raffinement contemporain. Avec ses 4 mètres d'hauteur sous plafond, il abrite une spectaculaire pièce de réception de 80 m², quatre chambres climatisées dont une Master suite impressionnante, une cuisine dînatoire avec matériaux bruts, et de nombreuses fenêtres à meneaux préservées.",
+      "images": [
+        "/images/apt_14/img_01.png",
+        "/images/apt_14/img_02.png",
+        "/images/apt_14/img_03.png",
+        "/images/apt_14/img_04.png",
+        "/images/apt_14/img_05.png",
+        "/images/apt_14/img_06.png"
+      ]
+    },
+    {
+      "id": "apt_1_batignolles",
+      "type": "buy",
+      "title": "3 Pièces Charme - Batignolles",
+      "price": "680 000 €",
+      "location": "Paris 17ème",
+      "features": "62 m² • 3 Pièces",
+      "description": "Situé dans une rue calme des Batignolles, cet appartement de 3 pièces offre un séjour lumineux, deux chambres, une cuisine séparée et une salle d'eau. Parquet et cheminée d'origine.",
+      "images": [
+        "/images/apt_1/img_01.png",
+        "/images/apt_1/img_02.png",
+        "/images/apt_1/img_03.png",
+        "/images/apt_1/img_04.png",
+        "/images/apt_1/img_05.png",
+        "/images/apt_1/img_06.png",
+        "/images/apt_1/img_07.png"
+      ]
+    },
+    {
+      "id": "apt_2_oberkampf",
+      "type": "buy",
+      "title": "2 Pièces Traversant - Oberkampf",
+      "price": "495 000 €",
+      "location": "Paris 11ème",
+      "features": "45 m² • 2 Pièces",
+      "description": "Au coeur d'Oberkampf, 2 pièces traversant dans un immeuble ancien. Séjour avec cuisine ouverte, chambre sur cour pavée au calme absolu. Belle hauteur sous plafond.",
+      "images": [
+        "/images/apt_2/img_01.png",
+        "/images/apt_2/img_02.png",
+        "/images/apt_2/img_03.png",
+        "/images/apt_2/img_04.png",
+        "/images/apt_2/img_05.png",
+        "/images/apt_2/img_06.png",
+        "/images/apt_2/img_07.png"
+      ]
+    },
+    {
+      "id": "apt_3_convention",
+      "type": "buy",
+      "title": "Familial Lumineux - Convention",
+      "price": "890 000 €",
+      "location": "Paris 15ème",
+      "features": "88 m² • 4 Pièces",
+      "description": "Appartement familial de 4 pièces, étage élevé avec ascenseur. Double séjour avec balcon filant, trois chambres, cuisine indépendante. Calme et très clair.",
+      "images": [
+        "/images/apt_3/img_01.png",
+        "/images/apt_3/img_02.png",
+        "/images/apt_3/img_03.png",
+        "/images/apt_3/img_04.png",
+        "/images/apt_3/img_05.png",
+        "/images/apt_3/img_06.png",
+        "/images/apt_3/img_07.png",
+        "/images/apt_3/img_08.png",
+        "/images/apt_3/img_09.png"
+      ]
+    },
+    {
+      "id": "apt_4_butte",
+      "type": "buy",
+      "title": "Duplex Atypique - Butte-aux-Cailles",
+      "price": "650 000 €",
+      "location": "Paris 13ème",
+      "features": "70 m² • 3 Pièces",
+      "description": "Duplex esprit maison sous les toits. Séjour cathédrale, cuisine équipée, deux chambres mansardées. Charme de l'ancien et calme absolu dans une rue pavée.",
+      "images": [
+        "/images/apt_4/img_01.png",
+        "/images/apt_4/img_02.png",
+        "/images/apt_4/img_03.png",
+        "/images/apt_4/img_04.png",
+        "/images/apt_4/img_05.png",
+        "/images/apt_4/img_06.png"
+      ]
+    },
+    {
+      "id": "apt_5_nation",
+      "type": "buy",
+      "title": "Grand Studio - Nation",
+      "price": "420 000 €",
+      "location": "Paris 12ème",
+      "features": "35 m² • 1 Pièce",
+      "description": "Vaste studio entièrement rénové avec goût. Coin nuit séparé, cuisine moderne, salle d'eau élégante. Vendu meublé et équipé. Idéal investissement.",
+      "images": [
+        "/images/apt_5/img_01.png",
+        "/images/apt_5/img_02.png",
+        "/images/apt_5/img_03.png"
+      ]
+    },
+    {
+      "id": "apt_6_republique",
+      "type": "buy",
+      "title": "Haussmannien - République",
+      "price": "810 000 €",
+      "location": "Paris 11ème",
+      "features": "78 m² • 3 Pièces",
+      "description": "Bel haussmannien en pierre de taille. Double séjour avec parquet point de Hongrie et moulures. Deux chambres, cuisine indépendante. Bel immeuble bien entretenu.",
+      "images": [
+        "/images/apt_6/img_01.png",
+        "/images/apt_6/img_02.png",
+        "/images/apt_6/img_03.png",
+        "/images/apt_6/img_04.png",
+        "/images/apt_6/img_05.png",
+        "/images/apt_6/img_06.png",
+        "/images/apt_6/img_07.png",
+        "/images/apt_6/img_08.png"
+      ]
+    },
+    {
+      "id": "apt_7_commerce",
+      "type": "buy",
+      "title": "Appartement d'Angle - Commerce",
+      "price": "620 000 €",
+      "location": "Paris 15ème",
+      "features": "60 m² • 3 Pièces",
+      "description": "Lumineux appartement d'angle dans un quartier commerçant. Séjour double exposition, deux chambres, cuisine indépendante. Plan optimal sans perte de place.",
+      "images": [
+        "/images/apt_7/img_01.png",
+        "/images/apt_7/img_02.png",
+        "/images/apt_7/img_03.png",
+        "/images/apt_7/img_04.png",
+        "/images/apt_7/img_05.png",
+        "/images/apt_7/img_06.png"
+      ]
+    },
+    {
+      "id": "apt_8_gambetta",
+      "type": "buy",
+      "title": "Grand Volume - Gambetta",
+      "price": "850 000 €",
+      "location": "Paris 20ème",
+      "features": "95 m² • 4 Pièces",
+      "description": "Espaces généreux pour cet appartement familial de 95m². Séjour cathédrale, 3 chambres, rénovation soignée avec matériaux nobles. Charme et modernité.",
+      "images": [
+        "/images/apt_8/img_01.png",
+        "/images/apt_8/img_02.png",
+        "/images/apt_8/img_03.png",
+        "/images/apt_8/img_04.png",
+        "/images/apt_8/img_05.png",
+        "/images/apt_8/img_06.png",
+        "/images/apt_8/img_07.png",
+        "/images/apt_8/img_08.png",
+        "/images/apt_8/img_09.png",
+        "/images/apt_8/img_10.png",
+        "/images/apt_8/img_11.png",
+        "/images/apt_8/img_12.png",
+        "/images/apt_8/img_13.png",
+        "/images/apt_8/img_14.png",
+        "/images/apt_8/img_15.png",
+        "/images/apt_8/img_16.png",
+        "/images/apt_8/img_17.png",
+        "/images/apt_8/img_18.png",
+        "/images/apt_8/img_19.png"
+      ]
+    },
+    {
+      "id": "apt_9_moines",
+      "type": "buy",
+      "title": "Charme des Batignolles - Moines",
+      "price": "590 000 €",
+      "location": "Paris 17ème",
+      "features": "50 m² • 2 Pièces",
+      "description": "Coup de coeur pour ce 2 pièces au calme avec vue dégagée sur les toits. Charme de l'ancien préservé, quartier village très recherché.",
+      "images": [
+        "/images/apt_9/img_01.png",
+        "/images/apt_9/img_02.png",
+        "/images/apt_9/img_03.png",
+        "/images/apt_9/img_04.png",
+        "/images/apt_9/img_05.png",
+        "/images/apt_9/img_06.png",
+        "/images/apt_9/img_07.png",
+        "/images/apt_9/img_08.png",
+        "/images/apt_9/img_09.png",
+        "/images/apt_9/img_10.png",
+        "/images/apt_9/img_11.png",
+        "/images/apt_9/img_12.png"
+      ]
+    },
+    {
+      "id": "apt_10_wagram",
+      "type": "buy",
+      "title": "Prestige Familial - Wagram",
+      "price": "1 990 000 €",
+      "location": "Paris 17ème",
+      "features": "185 m² • 7 Pièces",
+      "description": "Exceptionnel appartement de réception et familial de 7 pièces au cœur du quartier Wagram. Situé en étage noble d'un immeuble en pierre de taille de grand standing. Galerie d'entrée majestueuse, triple séjour en angle baigné de lumière avec parquets, moulures et cheminées. 4 grandes chambres, 2 salles de bains. Belle hauteur sous plafond. Une adresse de prestige à proximité des écoles et du parc Monceau.",
+      "images": [
+        "/images/apt_10/img_01.png",
+        "/images/apt_10/img_02.png",
+        "/images/apt_10/img_03.png",
+        "/images/apt_10/img_04.png",
+        "/images/apt_10/img_05.png",
+        "/images/apt_10/img_06.png",
+        "/images/apt_10/img_07.png",
+        "/images/apt_10/img_08.png",
+        "/images/apt_10/img_09.png",
+        "/images/apt_10/img_10.png",
+        "/images/apt_10/img_11.png"
+      ]
+    }
+  ]
+}
