@@ -75,7 +75,7 @@ const OwnersSection = () => {
                         />
                         <div className="absolute -bottom-6 -left-6 glass-panel p-6 rounded-lg text-primary max-w-xs">
                             <p className="italic text-sm mb-4">"Grâce à Sely, j'ai vendu ma villa en moins de 3 semaines au prix souhaité. Le suivi était impeccable."</p>
-                            <p className="font-bold">- Jean Dupont, Vendeur</p>
+                            <p className="font-bold">- Raphaël S., Vendeur</p>
                         </div>
                     </motion.div>
                 </div>

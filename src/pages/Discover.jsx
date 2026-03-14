@@ -111,16 +111,7 @@ const Discover = () => {
                                     une écoute, une expertise et une discrétion hors du commun. Nous accompagnons une clientèle
                                     exigeante dans la réalisation de ses rêves les plus ambitieux au cœur de la capitale.
                                 </p>
-                                <div className="flex gap-6 lg:gap-12">
-                                    <div>
-                                        <p className="text-3xl font-serif text-primary mb-1">30 M€</p>
-                                        <p className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Volume de ventes</p>
-                                    </div>
-                                    <div>
-                                        <p className="text-3xl font-serif text-primary mb-1">150+</p>
-                                        <p className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Biens d'exception</p>
-                                    </div>
-                                </div>
+
                             </motion.div>
                         </div>
                     </div>
@@ -198,7 +189,7 @@ const Discover = () => {
             <section className="py-40 bg-primary text-white text-center relative overflow-hidden">
                 <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
                 <div className="container mx-auto px-4 relative z-10">
-                    <h2 className="text-5xl md:text-7xl font-serif mb-10">Rejoignez l'élite</h2>
+                    <h2 className="text-5xl md:text-7xl font-serif mb-10">Écrivez votre prochain chapitre</h2>
                     <p className="text-xl text-gray-400 mb-16 max-w-2xl mx-auto font-light leading-relaxed">
                         Que vous soyez un propriétaire en quête de discrétion ou un acquéreur en quête d'exception,
                         notre équipe est prête à relever votre défi.

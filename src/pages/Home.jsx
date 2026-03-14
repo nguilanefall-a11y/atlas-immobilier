@@ -153,9 +153,9 @@ const Home = () => {
             {/* CTA Final */}
             <section className="py-16 md:py-12 md:py-16 lg:py-24 lg:py-32 bg-white text-center">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-4xl md:text-5xl font-serif text-primary mb-8">Un projet immobilier ?</h2>
+                    <h2 className="text-4xl md:text-5xl font-serif text-primary mb-8">L'immobilier comme art de vivre</h2>
                     <p className="text-xl text-gray-500 mb-12 max-w-2xl mx-auto font-light">
-                        Discutons de vos ambitions autour d'un café dans l'une de nos agences parisiennes.
+                        Rencontrons-nous en toute confidentialité pour dessiner les contours de votre futur patrimoine européen.
                     </p>
                     <Link to="/contact" className="bg-primary text-white px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-secondary transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">
                         Prendre rendez-vous

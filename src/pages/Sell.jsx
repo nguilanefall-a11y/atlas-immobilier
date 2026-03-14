@@ -46,7 +46,7 @@ const Sell = () => {
                                 onClick={() => setShowEstimation(true)}
                                 className="bg-primary text-white px-8 py-3 rounded-none uppercase tracking-widest text-sm hover:bg-secondary transition-colors duration-300"
                             >
-                                Estimer mon bien
+                                Demander une évaluation
                             </button>
                         </div>
                     </motion.div>

@@ -22,7 +22,7 @@ const Navbar = () => {
         { name: 'SOUS-LOCATION PROFESSIONNELLE', path: '/conciergerie' },
         { name: 'VENDRE', path: '/sell' },
         { name: 'JOURNAL', path: '/journal' },
-        { name: 'NOS CONSEILLERS', path: '/advisors' },
+        // { name: 'NOS CONSEILLERS', path: '/advisors' },
         { name: 'DÉCOUVRIR', path: '/discover' },
         { name: 'CONTACT', path: '/contact' },
     ];
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Link to="/" className="flex items-center gap-3 group">
                         <div className={`w-11 h-11 border-[1.5px] flex items-center justify-center transition-all duration-500 
                         ${isTransparent ? 'border-white text-white' : 'border-primary text-primary group-hover:border-secondary group-hover:text-secondary'}`}>
-                            <span className="font-serif font-medium text-2xl relative top-[-1px]">A</span>
+                            <span className="font-serif font-medium text-2xl relative top-[-1px]">S</span>
                         </div>
                         <div className="flex flex-col leading-none">
                             <span className={`font-serif font-medium tracking-[0.3em] text-xl transition-colors duration-500 ${isTransparent ? 'text-white' : 'text-primary'}`}>SELY</span>

@@ -86,7 +86,7 @@ const Contact = () => {
                                 <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Prénom & Nom</label>
                                 <input
                                     type="text"
-                                    placeholder="Jean Dupont"
+                                    placeholder="Votre prénom & nom"
                                     className="w-full border-b border-gray-200 focus:border-secondary outline-none py-3 transition-all bg-transparent placeholder:text-gray-300 font-light text-lg"
                                 />
                             </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                                 <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Adresse Email</label>
                                 <input
                                     type="email"
-                                    placeholder="jean.dupont@email.com"
+                                    placeholder="votre.adresse@email.com"
                                     className="w-full border-b border-gray-200 focus:border-secondary outline-none py-3 transition-all bg-transparent placeholder:text-gray-300 font-light text-lg"
                                 />
                             </div>

@@ -26,11 +26,11 @@
     {
       "id": "apt_12_neuilly",
       "type": "buy",
-      "title": "Penthouse - Neuilly-sur-Seine",
+      "title": "Élégance Haussmannienne - Neuilly-sur-Seine",
       "price": "1 280 000 €",
       "location": "Neuilly-sur-Seine",
-      "features": "110 m² • 4 Pièces",
-      "description": "Véritable écrin suspendu au dernier étage d'une résidence de prestige très sécurisée à Neuilly-sur-Seine. Ce penthouse rare de 110 m² se prolonge par une époustouflante terrasse arborée de 80 m² plein sud, offrant une vue panoramique sans aucun vis-à-vis sur le bois de Boulogne. L'espace de vie cathédrale de 60 m² intégralement vitré comprend une cuisine équipée ouverte, deux suites avec salles d'eau attenantes, et bénéficie de prestations domotiques très haut de gamme.",
+      "features": "110 m² • 4 Pièces • 3e étage avec ascenseur",
+      "description": "Élégant appartement classique baigné de lumière au cœur de Neuilly-sur-Seine. Ce bien au charme intemporel offre de superbes volumes ornés d'éléments d'époque soigneusement conservés : parquet en point de Hongrie, délicates moulures et cheminée en marbre surmontée de son trumeau d'origine. Le bel espace de réception s'ouvre sur un environnement calme aux agréables vues arborées, alliant ainsi raffinement haussmannien et esprit verdoyant.",
       "images": [
         "/images/apt_12/img_01.png",
         "/images/apt_12/img_02.png",

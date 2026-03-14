@@ -70,13 +70,27 @@ const Advisors = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="text-center mb-20"
+                    className="text-center mb-16"
                 >
                     <h1 className="text-4xl md:text-5xl font-serif text-primary mb-6">Nos Conseillers</h1>
                     <div className="w-24 h-1 bg-secondary mx-auto mb-8"></div>
                     <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
                         Une équipe d'experts passionnés à votre écoute pour concrétiser vos projets immobiliers les plus ambitieux.
                     </p>
+                </motion.div>
+
+                {/* Team Photo */}
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 1, delay: 0.2 }}
+                    className="w-full mb-24 overflow-hidden"
+                >
+                    <img
+                        src="/advisors_team_photo.png"
+                        alt="L'équipe Sely Immobilier"
+                        className="w-full h-[300px] md:h-[500px] lg:h-[600px] object-cover object-center grayscale hover:grayscale-0 transition-all duration-1000"
+                    />
                 </motion.div>
 
                 {/* Grid */}
