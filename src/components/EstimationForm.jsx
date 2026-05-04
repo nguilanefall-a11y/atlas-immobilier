@@ -148,7 +148,7 @@ const EstimationForm = ({ onClose }) => {
                         </p>
 
                         <button onClick={onClose} className="bg-primary text-white px-8 py-3 w-full uppercase tracking-widest text-sm font-bold hover:bg-secondary transition-colors duration-300">
-                            Prendre rendez-vous avec un expert
+                            Prendre rendez-vous avec un conseiller
                         </button>
                     </div>
                 );

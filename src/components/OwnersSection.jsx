@@ -40,7 +40,7 @@ const OwnersSection = () => {
                             VOUS ÊTES <span className="text-secondary">PROPRIÉTAIRE ?</span>
                         </motion.h2>
                         <p className="text-xl mb-8 opacity-80">
-                            Sely Immobilier est votre partenaire de confiance pour vendre ou gérer votre bien. Nous transformons votre projet en succès grâce à notre expertise digitale.
+                            Sely Immobilier est votre partenaire de confiance pour vendre ou gérer votre bien. Nous transformons votre projet en succès grâce à notre approche digitale.
                         </p>
 
                         <div className="grid grid-cols-1 md-grid-cols-2 gap-6 mb-12">

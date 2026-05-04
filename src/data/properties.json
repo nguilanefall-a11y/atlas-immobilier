@@ -1,15 +1,56 @@
 {
   "properties": [
     {
+      "id": "apt_93_ile_saint_louis",
+      "type": "buy",
+      "title": "Pied-à-Terre d'Exception - Île Saint-Louis",
+      "price": "1 850 000 €",
+      "location": "Paris 4e Arrondissement",
+      "features": "85 m² • 3 Pièces • Vue Seine",
+      "description": "Nichée au cœur de la très exclusive Île Saint-Louis, cette pépite immobilière de 85 m² offre un cadre de vie absolument unique. Entièrement repensé par un architecte d'intérieur de renom, l'appartement mêle l'élégance des boiseries d'époque à un confort ultramoderne. Le salon de réception, paré de chêne sombre, dévoile de sublimes fenêtres en arceau encadrant une vue imprenable sur la Seine et Notre-Dame. Une luxueuse salle de bains en marbre vert avec baignoire plongeante complète ce bien rare, véritable havre de paix théâtral.",
+      "photosOnRequest": true,
+      "images": []
+    },
+    {
+      "id": "apt_92_parc_monceau",
+      "type": "buy",
+      "title": "Hôtel Particulier Majestueux - Parc Monceau",
+      "price": "9 850 000 €",
+      "location": "Paris 8e Arrondissement",
+      "features": "340 m² • 7 Pièces • Plein Sud",
+      "description": "À deux pas des grilles dorées du Parc Monceau, découvrez ce chef-d'œuvre architectural occupant l'étage noble d'un Hôtel Particulier somptueux. Avec ses 3,80 mètres de hauteur sous plafond sculpté, sa double galerie d'entrée et ses magistraux salons de réception ornés de dorures à la feuille, cet appartement familial rassemble tous les attributs du luxe mondain. Il dispose d'une immense salle à manger de réception et de quatre suites indépendantes, le tout baigné d'une lumière éclatante grâce à son exposition plein sud.",
+      "photosOnRequest": true,
+      "images": []
+    },
+    {
+      "id": "apt_91_saint_germain",
+      "type": "buy",
+      "title": "L'Esprit Rive Gauche - Saint-Germain-des-Prés",
+      "price": "2 200 000 €",
+      "location": "Paris 6e Arrondissement",
+      "features": "115 m² • 4 Pièces • Au Calme",
+      "description": "L'élégance absolue au détour d'une ruelle paisible de Saint-Germain-des-Prés. Au troisième étage d'un ravissant immeuble 18ème, ce bien traversant de 115 m² a su préserver une âme classique chic inégalable. Parquet en point de Hongrie, majestueuse cheminée en marbre surmontée de son trumeau d'origine, et bibliothèques sur mesure subliment la pièce de vie. L'appartement compte également un sublime bureau en boiseries de noyer, idéal pour le télétravail ou des réceptions intimistes, avec vue charmante sur une cour pavée préservée.",
+      "images": []
+    },
+    {
+      "id": "apt_90_marais",
+      "type": "buy",
+      "title": "Loft Sous les Toits - Le Marais",
+      "price": "1 450 000 €",
+      "location": "Paris 3e Arrondissement",
+      "features": "95 m² • 3 Pièces • Dernier Étage",
+      "description": "Perché au dernier étage d'un hôtel particulier historique en plein cœur du Marais, cet appartement esprit 'loft contemporain' sous les toits offre une retraite baignée de lumière zénithale de 95 m². Le contraste saisissant entre les imposantes poutres centenaires apparentes et la décoration minimaliste ultra-épurée confère à ce lieu une atmosphère unique. Il offre un vaste espace de vie cathédrale et une suite parentale somptueuse, tous deux sublimés par un parquet en chêne massif sur mesure et de sublimes verrières.",
+      "images": []
+    },
+    {
       "id": "apt_11_trocadero",
       "type": "buy",
       "title": "Prestige Étoile - Trocadéro",
-      "price": "1 150 000 €",
+      "price": "2 450 000 €",
       "location": "Paris 16ème",
       "features": "120 m² • 4 Pièces",
-      "description": "Au cœur du très prisé quartier de l'Étoile, découvrez ce somptueux appartement de réception de 120 m² niché au 4ème étage d'un immeuble haussmannien de grand standing. Rénové par un architecte de renom, il offre une majestueuse galerie d’entrée ouvrant sur un double séjour baigné de lumière avec vue latérale sur la Tour Eiffel. Parquet d'époque, cheminées en marbre, moulures délicates et une suite parentale avec dressing sur mesure et salle de bains en onyx complètent ce bien d'exception.",
+      "description": "Idéalement situé dans le très prisé 16ème arrondissement, découvrez ce superbe appartement familial de 120 m² entièrement rénové avec des prestations contemporaines haut de gamme. Baigné de lumière, il se compose d'un vaste espace de vie convivial, d'une belle chambre parentale et de chaleureuses chambres pour enfants. Les lignes épurées, les aménagements sur mesure et la décoration soignée confèrent à ce bien une atmosphère sereine et élégante, prête à vivre.",
       "images": [
-        "/images/apt_11/img_01.png",
         "/images/apt_11/img_02.png",
         "/images/apt_11/img_03.png",
         "/images/apt_11/img_04.png",
@@ -27,7 +68,7 @@
       "id": "apt_12_neuilly",
       "type": "buy",
       "title": "Élégance Haussmannienne - Neuilly-sur-Seine",
-      "price": "1 280 000 €",
+      "price": "1 850 000 €",
       "location": "Neuilly-sur-Seine",
       "features": "110 m² • 4 Pièces • 3e étage avec ascenseur",
       "description": "Élégant appartement classique baigné de lumière au cœur de Neuilly-sur-Seine. Ce bien au charme intemporel offre de superbes volumes ornés d'éléments d'époque soigneusement conservés : parquet en point de Hongrie, délicates moulures et cheminée en marbre surmontée de son trumeau d'origine. Le bel espace de réception s'ouvre sur un environnement calme aux agréables vues arborées, alliant ainsi raffinement haussmannien et esprit verdoyant.",
@@ -256,12 +297,12 @@
       "features": "185 m² • 7 Pièces",
       "description": "Exceptionnel appartement de réception et familial de 7 pièces au cœur du quartier Wagram. Situé en étage noble d'un immeuble en pierre de taille de grand standing. Galerie d'entrée majestueuse, triple séjour en angle baigné de lumière avec parquets, moulures et cheminées. 4 grandes chambres, 2 salles de bains. Belle hauteur sous plafond. Une adresse de prestige à proximité des écoles et du parc Monceau.",
       "images": [
+        "/images/apt_10/img_06.png",
         "/images/apt_10/img_01.png",
         "/images/apt_10/img_02.png",
         "/images/apt_10/img_03.png",
         "/images/apt_10/img_04.png",
         "/images/apt_10/img_05.png",
-        "/images/apt_10/img_06.png",
         "/images/apt_10/img_07.png",
         "/images/apt_10/img_08.png",
         "/images/apt_10/img_09.png",

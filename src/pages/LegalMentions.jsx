@@ -22,10 +22,9 @@ const LegalMentions = () => {
                     <div className="space-y-12 text-gray-600 font-light leading-relaxed">
                         <section>
                             <h2 className="text-2xl font-serif text-primary mb-4">1. Éditeur du site</h2>
-                            <p>Le site <strong>Sely Paris Immobilier</strong> (ci-après le "Site") est édité par la société <strong>Sely Immobilier SAS</strong>, au capital de 100 000 euros, immatriculée au Registre du Commerce et des Sociétés de Paris sous le numéro 123 456 789.</p>
-                            <p className="mt-2">Siège social : 66 avenue des Champs-Elysées, 75008 Paris, France.</p>
-                            <p className="mt-2">Numéro de TVA intracommunautaire : FR 12 123456789.</p>
-                            <p className="mt-2">Directeur de la publication : Monsieur Arthur Fall, en qualité de Directeur d'Agence.</p>
+                            <p>Le site <strong>Sely Paris Immobilier</strong> (ci-après le "Site") est édité par la société <strong>IMMOPRO</strong>, SAS (société par actions simplifiée) au capital de 1 €, immatriculée au Registre du Commerce et des Sociétés de Paris sous le numéro 994 156 768.</p>
+                            <p className="mt-2">Siège social : 41 rue de Bourgogne, 75007 Paris, France.</p>
+                            <p className="mt-2">Directeur de la publication : Monsieur Nguilane Fall, en qualité de Président.</p>
                         </section>
 
                         <section>
@@ -53,9 +52,9 @@ const LegalMentions = () => {
                             <h2 className="text-2xl font-serif text-primary mb-4">5. Contact</h2>
                             <p>Pour toute question ou demande d'information concernant le Site, vous pouvez nous contacter :</p>
                             <ul className="list-disc pl-5 mt-2 space-y-1">
-                                <li>Par email : contact@sely.paris</li>
-                                <li>Par téléphone : 06 52 90 49 51</li>
-                                <li>Par courrier postal : 66 avenue des Champs-Elysées, 75008 Paris</li>
+
+                                <li>Par téléphone : 01 84 16 08 42</li>
+                                <li>Par courrier postal : 41 rue de Bourgogne, 75007 Paris</li>
                             </ul>
                         </section>
                     </div>

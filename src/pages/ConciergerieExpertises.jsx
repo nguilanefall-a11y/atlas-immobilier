@@ -35,63 +35,63 @@ const ExpertiseCard = ({ icon: Icon, title, description, benefits, index }) => (
 const ConciergerieExpertises = () => {
     const expertises = [
         {
-            icon: Users,
-            title: "Ciblage et Sélection Locative",
-            description: "Nous identifions les profils les plus solvables et adaptés à votre bien. Notre réseau nous permet d'atteindre une clientèle corporate de haut niveau.",
-            benefits: [
-                "Accès au réseau diplomatique et expatriés premium",
-                "Audit drastique des dossiers financiers et garanties",
-                "Entretiens préalables rigoureux"
-            ]
-        },
-        {
             icon: ShieldCheck,
-            title: "Ingénierie Juridique et Fiscale",
-            description: "Chaque location demande un cadre sur mesure. Nous rédigeons des baux spécifiques adaptés à votre stratégie patrimoniale.",
+            title: "Le Bail Civil Sécurisé",
+            description: "Nous sommes votre locataire direct. En signant un bail civil avec Sely, vous nous autorisez contractuellement à sous-louer le bien à notre clientèle premium.",
             benefits: [
-                "Baux Code Civil et baux sociétés (Corporate)",
-                "Stratégies d'optimisation de la fiscalité locale",
-                "Suivi des évolutions réglementaires et encadrement des loyers"
+                "Légalité totale et transparence absolue",
+                "Contrat rédigé et validé par nos conseillers juridiques",
+                "Protection maximale de votre patrimoine"
             ]
         },
         {
             icon: TrendingUp,
-            title: "Maximisation du Rendement",
-            description: "Un bien d'exception mérite une rentabilité optimale. Nous ajustons la stratégie locative au marché pour limiter la vacance et maximiser les revenus.",
+            title: "Garantie de Loyer Infaillible",
+            description: "Finis les impayés et la vacance locative. Sely vous verse votre loyer tous les mois, à date fixe, que votre appartement soit occupé ou non par nos clients.",
             benefits: [
-                "Veille tarifaire en temps réel",
-                "Arbitrage entre location longue durée et mobilité",
-                "Garantie Visale et assurances loyers impayés intégrées"
+                "Versement régulier par virement automatique",
+                "Aucun risque de carence locative",
+                "Revenus 100% sécurisés et prévisibles"
             ]
         },
         {
-            icon: Building2,
-            title: "Gestion Technique et Intendance",
-            description: "De la petite réparation à la gestion de dégâts des eaux complexes, nous préservons et valorisons votre actif au fil du temps.",
+            icon: Users,
+            title: "Clientèle Corporate Exclusive",
+            description: "Nous sous-louons exclusivement à des cadres en mobilité, des expatriés et une clientèle d'affaires rigoureusement sélectionnée par nos réseaux.",
             benefits: [
-                "Réseau d'artisans labellisés Sely, intervention 24/7",
-                "Visites de contrôles annuelles documentées",
-                "Gestion des sinistres et relations avec les assurances"
+                "Partenariats avec des banques et multinationales",
+                "Séjours professionnels garantissant le calme",
+                "Aucune sous-location de type évènementiel"
+            ]
+        },
+        {
+            icon: Star,
+            title: "Entretien Qualité Hôtelière",
+            description: "Pour satisfaire nos clients haut de gamme, votre appartement doit être parfait. Le ménage professionnel et la petite maintenance sont à notre charge.",
+            benefits: [
+                "Nettoyage professionnel régulier de haut niveau",
+                "Petites réparations gérées par nos artisans facturées à Sely",
+                "Votre bien maintenu dans un état clinique"
             ]
         },
         {
             icon: Handshake,
-            title: "Gestion Administrative et Relation Locataire",
-            description: "Nous assurons une gestion locative longue durée sans faille, devenant l'interlocuteur unique de votre locataire pour vous libérer de toute contrainte.",
+            title: "Zéro Frais, Zéro Contrainte",
+            description: "Contrairement à une agence classique, nous ne prenons aucun pourcentage de gestion. Notre rémunération réside uniquement dans notre activité de sous-location.",
             benefits: [
-                "Gestion des interventions techniques et suivi des sinistres",
-                "Gestion rigoureuse des baux et avenants",
-                "Interface dédiée pour le propriétaire et le locataire"
+                "100% gratuit pour le propriétaire",
+                "Aucun honoraire de mise en location",
+                "Pas de frais de suivi ou d'état des lieux"
             ]
         },
         {
             icon: Key,
-            title: "Administration Financière Transparente",
-            description: "Toute la gestion comptable est numérisée et accessible. Votre tableau de bord financier vous apporte clarté et sérénité.",
+            title: "Disponibilité et Flexibilité",
+            description: "Nous gérons tout, de A à Z. Et si vous avez besoin de récupérer votre bien selon les termes du contrat, nous vous le restituons dans un état impeccable.",
             benefits: [
-                "Encaissement et révision annuelle des loyers automatisée",
-                "Paiement des charges de copropriété et apurement",
-                "Préparation du document d'aide à la déclaration fiscale"
+                "Un seul interlocuteur dédié à votre écoute",
+                "Remise en état systématique avant restitution",
+                "Tranquillité d'esprit totale"
             ]
         }
     ];
@@ -112,13 +112,13 @@ const ConciergerieExpertises = () => {
                         transition={{ duration: 0.8 }}
                         className="max-w-4xl mx-auto"
                     >
-                        <span className="text-secondary font-bold uppercase tracking-[0.2em] text-sm mb-6 block">Le Savoir-Faire Sely</span>
+                        <span className="text-secondary font-bold uppercase tracking-[0.2em] text-sm mb-6 block">Sous-location Professionnelle</span>
                         <h1 className="text-4xl md:text-6xl font-serif text-primary mb-8 leading-tight">
-                            Nos Expertises en <br className="hidden md:block" />
-                            <span className="italic font-light">Gestion Patrimoniale</span>
+                            Notre Accompagnement en <br className="hidden md:block" />
+                            <span className="italic font-light">Bail Corporate</span>
                         </h1>
                         <p className="text-lg md:text-xl text-gray-500 font-light leading-relaxed mb-10 max-w-2xl mx-auto">
-                            Découvrez le détail de nos méthodologies de gestion. Une combinaison exclusive de rigueur juridique, d'optimisation financière et d'un sens aigu du service sur-mesure.
+                            Découvrez notre modèle de sous-location professionnelle. Une solution clé en main vous garantissant des revenus fixes, l'absence totale de frais de gestion, et un entretien premium de votre bien.
                         </p>
 
                         <div className="flex items-center justify-center gap-2 text-sm text-gray-400 font-medium">
@@ -147,9 +147,9 @@ const ConciergerieExpertises = () => {
             <section className="py-20 bg-primary text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10"></div>
                 <div className="container mx-auto px-4 relative z-10 text-center">
-                    <h2 className="text-3xl md:text-5xl font-serif mb-6 max-w-3xl mx-auto">Prêt à confier la gestion de votre patrimoine ?</h2>
+                    <h2 className="text-3xl md:text-5xl font-serif mb-6 max-w-3xl mx-auto">Prêt à nous louer votre bien ?</h2>
                     <p className="text-lg text-gray-300 mb-10 font-light max-w-2xl mx-auto">
-                        Nos conseillers en gestion locative sont à votre disposition pour une étude personnalisée de votre bien immobilier.
+                        Contactez-nous pour une étude de faisabilité. Nous serons ravis d'estimer le loyer garanti que Sely peut vous verser.
                     </p>
                     <Link
                         to="/contact"

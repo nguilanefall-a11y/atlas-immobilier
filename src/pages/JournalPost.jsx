@@ -100,7 +100,7 @@ const JournalPost = () => {
                                 </div>
                                 <h4 className="font-serif font-bold text-lg mb-2">{post.author}</h4>
                                 <p className="text-xs text-gray-500 uppercase tracking-widest mb-4">Auteur</p>
-                                <p className="text-sm text-gray-600">Expert en immobilier de prestige et passionné par l'art de vivre parisien.</p>
+                                <p className="text-sm text-gray-600">Conseiller en immobilier de prestige et passionné par l'art de vivre parisien.</p>
                             </div>
 
                             {/* Newsletter Small */}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Key, Clock, ShieldCheck, Star, Users, FileText, Calendar, Car, ChevronDown, Check, Phone } from 'lucide-react';
+import { Key, Clock, ShieldCheck, Star, Users, FileText, Calendar, Car, ChevronDown, Check, Phone, TrendingUp, Handshake } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import YieldCalculator from '../components/YieldCalculator';
 
@@ -41,17 +41,106 @@ const AccordionItem = ({ title, children }) => {
 };
 
 const ServiceCard = ({ icon: Icon, title, description }) => (
-    <motion.div
-        whileHover={{ y: -5 }}
-        className="bg-white p-8 border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300"
-    >
-        <div className="w-12 h-12 bg-secondary/10 flex items-center justify-center rounded-full mb-6 text-secondary">
-            <Icon size={24} />
+    <div className="p-6 text-center">
+        <div className="text-secondary flex justify-center mb-6">
+            <Icon size={36} strokeWidth={1} />
         </div>
-        <h3 className="text-xl font-serif text-primary mb-3">{title}</h3>
-        <p className="text-gray-500 text-sm leading-relaxed">{description}</p>
+        <h4 className="text-lg font-bold uppercase tracking-wide mb-3">{title}</h4>
+        <p className="text-gray-500 text-sm font-light leading-relaxed">{description}</p>
+    </div>
+);
+
+const ExpertiseCard = ({ icon: Icon, title, description, benefits, index }) => (
+    <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.6, delay: index * 0.1 }}
+        className="bg-white p-8 md:p-12 border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-500 group"
+    >
+        <div className="w-16 h-16 bg-primary/5 flex items-center justify-center rounded-full mb-8 text-secondary group-hover:scale-110 transition-transform duration-500">
+            <Icon size={32} />
+        </div>
+        <h3 className="text-2xl font-serif text-primary mb-6">{title}</h3>
+        <p className="text-gray-500 font-light leading-relaxed mb-8">
+            {description}
+        </p>
+        <div className="space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-4">La valeur ajoutée Sely</h4>
+            <ul className="space-y-3">
+                {benefits.map((benefit, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                        <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0"></div>
+                        <span className="text-sm text-gray-600 leading-relaxed">{benefit}</span>
+                    </li>
+                ))}
+            </ul>
+        </div>
     </motion.div>
 );
+
+const expertises = [
+    {
+        icon: ShieldCheck,
+        title: "Le Bail Civil Sécurisé",
+        description: "Nous sommes votre locataire direct. En signant un bail civil avec Sely, vous nous autorisez contractuellement à sous-louer le bien à notre clientèle premium.",
+        benefits: [
+            "Légalité totale et transparence absolue",
+            "Contrat rédigé et validé par nos conseillers juridiques",
+            "Protection maximale de votre patrimoine"
+        ]
+    },
+    {
+        icon: TrendingUp,
+        title: "Garantie de Loyer Infaillible",
+        description: "Finis les impayés et la vacance locative. Sely vous verse votre loyer tous les mois, à date fixe, que votre appartement soit occupé ou non par nos clients.",
+        benefits: [
+            "Versement régulier par virement automatique",
+            "Aucun risque de carence locative",
+            "Revenus 100% sécurisés et prévisibles"
+        ]
+    },
+    {
+        icon: Users,
+        title: "Clientèle Corporate Exclusive",
+        description: "Nous sous-louons exclusivement à des cadres en mobilité, des expatriés et une clientèle d'affaires rigoureusement sélectionnée par nos réseaux.",
+        benefits: [
+            "Partenariats avec des banques et multinationales",
+            "Séjours professionnels garantissant le calme",
+            "Aucune sous-location de type évènementiel"
+        ]
+    },
+    {
+        icon: Star,
+        title: "Entretien Qualité Hôtelière",
+        description: "Pour satisfaire nos clients haut de gamme, votre appartement doit être parfait. Le ménage professionnel et la petite maintenance sont à notre charge.",
+        benefits: [
+            "Nettoyage professionnel régulier de haut niveau",
+            "Petites réparations gérées par nos artisans facturées à Sely",
+            "Votre bien maintenu dans un état clinique"
+        ]
+    },
+    {
+        icon: Handshake,
+        title: "Zéro Frais, Zéro Contrainte",
+        description: "Contrairement à une agence classique, nous ne prenons aucun pourcentage de gestion. Notre rémunération réside uniquement dans notre activité de sous-location.",
+        benefits: [
+            "100% gratuit pour le propriétaire",
+            "Aucun honoraire de mise en location",
+            "Pas de frais de suivi ou d'état des lieux"
+        ]
+    },
+    {
+        icon: Key,
+        title: "Disponibilité et Flexibilité",
+        description: "Nous gérons tout, de A à Z. Et si vous avez besoin de récupérer votre bien selon les termes du contrat, nous vous le restituons dans un état impeccable.",
+        benefits: [
+            "Un seul interlocuteur dédié à votre écoute",
+            "Remise en état systématique avant restitution",
+            "Tranquillité d'esprit totale"
+        ]
+    }
+];
 
 const Conciergerie = () => {
     const [showPhone, setShowPhone] = useState(false);
@@ -72,20 +161,17 @@ const Conciergerie = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <span className="text-secondary font-bold uppercase tracking-[0.2em] text-sm mb-6 block">Sous-Location Professionnelle & Conciergerie</span>
+                        <span className="text-secondary font-bold uppercase tracking-[0.2em] text-sm mb-6 block">Sous-Location Professionnelle</span>
                         <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">
                             Votre Loyer <br />
                             <span className="italic font-light text-secondary">Garanti à 100%</span>
                         </h1>
                         <p className="text-lg md:text-xl text-gray-200 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-                            Nous devenons votre locataire principal via un bail adapté. Nous vous versons un loyer fixe chaque mois, et nous occupons de sous-louer votre bien (moyenne et longue durée, professionnels) dans les règles de l'art. Un revenu assuré, zéro souci.
+                            Sely devient votre locataire de confiance. Nous garantissons le versement de votre loyer chaque mois, tout en assurant la gestion intégrale de votre bien auprès d'une clientèle corporate exclusive. Une rentabilité sécurisée, la tranquillité d'esprit en plus.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="bg-white text-primary px-8 py-4 uppercase tracking-widest text-xs font-bold hover:bg-secondary hover:text-white transition-all duration-300">
-                                Louer mon bien (Longue Durée)
-                            </Link>
-                            <Link to="/conciergerie/expertises" className="border border-white text-white px-8 py-4 uppercase tracking-widest text-xs font-bold hover:bg-white hover:text-primary transition-all duration-300">
-                                Offre Sous-Location
+                                Confier mon bien
                             </Link>
                         </div>
                     </motion.div>
@@ -105,58 +191,31 @@ const Conciergerie = () => {
                             <p className="text-sm uppercase tracking-widest text-gray-400">Gestion Premium</p>
                         </div>
                         <div className="py-4 md:py-0">
-                            <h3 className="text-4xl font-serif text-secondary mb-2">0 €</h3>
-                            <p className="text-sm uppercase tracking-widest text-gray-400">Frais Cachés</p>
+                            <h3 className="text-4xl font-serif text-secondary mb-2">100%</h3>
+                            <p className="text-sm uppercase tracking-widest text-gray-400">Transparence</p>
                         </div>
                         <div className="py-4 md:py-0">
-                            <h3 className="text-4xl font-serif text-secondary mb-2">5★</h3>
-                            <p className="text-sm uppercase tracking-widest text-gray-400">Note Clients</p>
+                            <h3 className="text-4xl font-serif text-secondary mb-2">✦</h3>
+                            <p className="text-sm uppercase tracking-widest text-gray-400">Excellence Reconnue</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* SERVICES GRID */}
-            <section className="py-16 md:py-12 md:py-16 lg:py-24 lg:py-32 bg-gray-50">
+            {/* EXPERTISES GRID */}
+            <section className="py-16 md:py-20 lg:py-32 bg-gray-50/50">
                 <div className="container mx-auto px-4">
                     <div className="text-center max-w-3xl mx-auto mb-20">
-                        <h2 className="text-3xl md:text-4xl font-serif text-primary mb-6">Comment ça marche ?</h2>
+                        <h2 className="text-3xl md:text-4xl font-serif text-primary mb-6">Notre Accompagnement en <br className="hidden md:block" /><span className="text-secondary italic font-light">Bail Corporate</span></h2>
                         <p className="text-gray-500 font-light leading-relaxed">
-                            Vous signez un bail avec nous, et nous nous occupons du reste. Notre rémunération vient des sous-locations que nous effectuons (plateformes, sociétés, expatriés) : c'est notre métier, vous ne payez aucuns frais de gestion.
+                            Découvrez notre modèle de sous-location professionnelle. Une solution clé en main vous garantissant des revenus fixes, l'absence totale de frais de gestion, et un entretien premium de votre bien.
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <ServiceCard
-                            icon={ShieldCheck}
-                            title="Bail Civil Sécurisé"
-                            description="Nous signons un bail officiel vous autorisant la sous-location professionnelle. Tout est légal, transparent, et contractuellement encadré."
-                        />
-                        <ServiceCard
-                            icon={Users}
-                            title="Clientèle Corporate"
-                            description="Nous louons votre logement à des entreprises, des expatriés ou des professionnels en déplacement, garantissant un grand soin de votre bien."
-                        />
-                        <ServiceCard
-                            icon={Star}
-                            title="Entretien Haut de Gamme"
-                            description="Pour rentabiliser nos sous-locations, nous avons besoin d'un bien en état parfait. Nous assurons le ménage professionnel et la petite maintenance à nos frais."
-                        />
-                        <ServiceCard
-                            icon={Calendar}
-                            title="Optimisation Rendement"
-                            description="Étude de marché permanente pour ajuster vos loyers aux meilleures opportunités tout en garantissant une vacance locative minimale."
-                        />
-                        <ServiceCard
-                            icon={FileText}
-                            title="Gestion Administrative"
-                            description="Prise en charge intégrale de la location longue durée : rédaction des baux, états des lieux, et gestion des relations avec les locataires."
-                        />
-                        <ServiceCard
-                            icon={Key}
-                            title="Ingénierie Juridique"
-                            description="Veille réglementaire constante et sécurisation juridique de vos baux pour prévenir tout risque de contentieux."
-                        />
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                        {expertises.map((exp, index) => (
+                            <ExpertiseCard key={index} index={index} {...exp} />
+                        ))}
                     </div>
                 </div>
             </section>
@@ -168,8 +227,8 @@ const Conciergerie = () => {
                         <div className="lg:w-1/2 relative">
                             <div className="absolute -top-10 -left-10 w-40 h-40 bg-gray-100 rounded-full z-0"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1551524164-687a55dd1126?q=80&w=2000"
-                                alt="Concierge service details"
+                                src="/assets/conciergerie/paris_apartment.png"
+                                alt="Intérieur d'un appartement réaliste de haut standing avec vue sur Paris"
                                 className="relative z-10 w-full rounded-sm shadow-2xl"
                             />
                             <div className="absolute -bottom-10 -right-10 w-64 h-64 border-[20px] border-gray-50 z-0"></div>
@@ -223,10 +282,10 @@ const Conciergerie = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
                         <div className="lg:w-1/2">
-                            <span className="text-secondary font-bold uppercase tracking-widest text-xs mb-4 block">Tarification</span>
-                            <h2 className="text-3xl md:text-5xl font-serif mb-8">Une offre simple et transparente</h2>
+                            <span className="text-secondary font-bold uppercase tracking-widest text-xs mb-4 block">Notre Engagement</span>
+                            <h2 className="text-3xl md:text-5xl font-serif mb-8">Une tranquillité d'esprit absolue</h2>
                             <p className="text-gray-400 mb-10 leading-relaxed">
-                                Pas de frais cachés. Notre rémunération est basée sur la performance. Nous ne gagnons de l'argent que si vous en gagnez.
+                                Sely devient votre locataire principal. Oubliez la gestion immobilière classique, les risques d'impayés et la vacance locative. Nous vous garantissons un revenu fixe chaque mois, tout en assurant un entretien méticuleux de votre patrimoine parisien.
                             </p>
 
                         </div>
@@ -237,17 +296,17 @@ const Conciergerie = () => {
 
                             <div className="bg-white p-8 lg:p-8 lg:p-12 text-black shadow-2xl">
                                 <div className="space-y-2">
-                                    <AccordionItem title="Quels sont les avantages d'un bail civil ou commercial ?">
-                                        Le bail civil offre une plus grande flexibilité contractuelle, permettant de définir librement la durée et les conditions, idéal pour une clientèle corporate ou en mobilité. Le bail commercial sécurise les revenus sur le long terme avec des locataires institutionnels.
+                                    <AccordionItem title="Quel est l'intérêt de louer à Sely plutôt qu'à un particulier ?">
+                                        En signant un bail avec Sely, nous devenons votre locataire direct. Vous éliminez 100% des risques d'impayés et de vacance locative. De plus, votre bien bénéficie d'un entretien de niveau hôtelier effectué par nos équipes.
                                     </AccordionItem>
-                                    <AccordionItem title="Comment garantissez-vous le paiement des loyers ?">
-                                        Nous effectuons un audit financier drastique des candidats. De plus, nous proposons des garanties loyers impayés (GLI) et des cautions bancaires pour une sécurité totale de vos revenus.
+                                    <AccordionItem title="Y a-t-il vraiment aucun frais de gestion ?">
+                                        Absolument aucun. Contrairement à une agence traditionnelle qui prélève entre 5% et 10% de vos loyers, notre service est totalement gratuit pour les propriétaires.
                                     </AccordionItem>
-                                    <AccordionItem title="Quelle est la durée des locations ?">
-                                        Nos locations sont généralement conclues pour une durée comprise entre 30 jours et 12 mois maximum, afin de garantir une flexibilité optimale pour les propriétaires et les locataires corporate.
+                                    <AccordionItem title="Qui occupera mon appartement ?">
+                                        Nous sous-louons exclusivement à une clientèle Corporate de haut niveau : cadres dirigeants en mobilité, diplomates ou expatriés, via nos partenariats exclusifs avec des entreprises.
                                     </AccordionItem>
-                                    <AccordionItem title="Gérez-vous également les travaux de rénovation ?">
-                                        Oui, nos équipes peuvent superviser des travaux de rafraîchissement ou de rénovation complète entre deux locataires pour maintenir le standing et optimiser la valeur de votre bien.
+                                    <AccordionItem title="Comment est assuré l'entretien de mon bien ?">
+                                        L'état de votre bien est notre outil de travail. Nous effectuons des ménages professionnels hebdomadaires, et prenons en charge la petite maintenance (plomberie légère, petites réparations) à nos frais.
                                     </AccordionItem>
                                 </div>
                             </div>
@@ -261,10 +320,10 @@ const Conciergerie = () => {
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl md:text-5xl font-serif text-primary mb-8">Un projet de mise en location ?</h2>
                     <p className="text-lg text-gray-500 mb-10 max-w-2xl mx-auto font-light">
-                        Discutons de votre bien et de son potentiel locatif autour d'un café.
+                        Échangeons en toute confidentialité sur le potentiel locatif de votre patrimoine.
                     </p>
-                    <Link to="/contact" className="inline-block bg-primary text-white px-12 py-5 uppercase tracking-widest text-sm font-bold shadow-xl hover:bg-secondary hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
-                        Rencontrer un expert
+                    <Link to="/contact" className="inline-block bg-primary text-white px-12 py-5 uppercase tracking-[0.15em] text-xs font-medium hover:bg-secondary transition-colors duration-300">
+                        Rencontrer un conseiller
                     </Link>
                 </div>
             </section>

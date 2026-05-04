@@ -19,10 +19,9 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'ACHETER', path: '/buy' },
-        { name: 'SOUS-LOCATION PROFESSIONNELLE', path: '/conciergerie' },
+        { name: 'LOYER GARANTI', path: '/conciergerie' },
         { name: 'VENDRE', path: '/sell' },
         { name: 'JOURNAL', path: '/journal' },
-        // { name: 'NOS CONSEILLERS', path: '/advisors' },
         { name: 'DÉCOUVRIR', path: '/discover' },
         { name: 'CONTACT', path: '/contact' },
     ];
@@ -52,8 +51,8 @@ const Navbar = () => {
                             <Link
                                 key={link.name}
                                 to={link.path}
-                                className={`text-xs font-bold tracking-widest transition-all duration-300 relative group py-2 
-                                ${isTransparent ? 'text-white hover:text-white' : 'text-gray-600 hover:text-primary'}
+                                className={`text-[12px] font-light tracking-[0.15em] transition-all duration-300 relative group py-2 
+                                ${isTransparent ? 'text-white/90 hover:text-white' : 'text-gray-500 hover:text-primary'}
                             `}
                             >
                                 {link.name}
@@ -66,10 +65,10 @@ const Navbar = () => {
                     <div className="flex items-center gap-5">
 
                         <button
-                            className={`hidden md:flex items-center gap-1 font-medium transition-colors text-xs tracking-widest ${isTransparent ? 'text-white/80 hover:text-white' : 'text-gray-400 hover:text-primary'}`}
+                            className={`hidden md:flex items-center gap-1 font-light transition-colors text-[12px] tracking-[0.15em] ${isTransparent ? 'text-white/90 hover:text-white' : 'text-gray-400 hover:text-primary'}`}
                             onClick={() => setLanguage(language === 'FR' ? 'EN' : 'FR')}
                         >
-                            <Globe size={14} />
+                            <Globe size={13} />
                             <span>{language}</span>
                         </button>
 
@@ -123,9 +122,9 @@ const Navbar = () => {
                                         <Link
                                             to={link.path}
                                             onClick={() => setMobileMenuOpen(false)}
-                                            className="text-2xl font-serif font-bold text-primary flex items-center justify-between group"
+                                            className="text-2xl font-serif text-primary flex items-center justify-between group"
                                         >
-                                            <span>{link.name}</span>
+                                            <span className="font-light">{link.name}</span>
                                             <span className="text-secondary opacity-0 group-hover:opacity-100 transition-opacity -translate-x-4 group-hover:translate-x-0 duration-300">→</span>
                                         </Link>
                                     </motion.div>

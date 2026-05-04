@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
                             <p className="mt-2">Vous pouvez exercer ces droits à tout moment en nous contactant à l'adresse suivante :</p>
                             <ul className="list-disc pl-5 mt-2 space-y-1">
                                 <li>Par email : dpo@sely.paris</li>
-                                <li>Par courrier : DPO Sely Immobilier, 66 avenue des Champs-Elysées, 75008 Paris</li>
+                                <li>Par courrier : DPO Sely Immobilier, 41 rue de Bourgogne, 75007 Paris</li>
                             </ul>
                         </section>
                     </div>

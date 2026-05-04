@@ -8,11 +8,11 @@ export default {
         extend: {
             colors: {
                 primary: '#0f172a',
-                secondary: '#c5a059',
+                secondary: '#b40030',
                 accent: '#f8fafc',
             },
             fontFamily: {
-                sans: ['Outfit', 'sans-serif'],
+                sans: ['Jost', 'sans-serif'],
                 serif: ['Playfair Display', 'serif'],
             },
         },

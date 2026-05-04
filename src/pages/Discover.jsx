@@ -77,7 +77,7 @@ const Discover = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-stretch bg-white shadow-2xl border border-gray-100 min-h-[600px]">
                         {/* Left: The "Poster" part */}
-                        <div className="md:w-5/12 relative overflow-hidden group">
+                        <div className="md:w-5/12 relative overflow-hidden group min-h-[400px] md:min-h-0">
                             <img
                                 src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200"
                                 alt="Paris Architecture"
@@ -108,7 +108,7 @@ const Discover = () => {
                                 </p>
                                 <p className="text-gray-500 text-lg leading-relaxed mb-10 font-light">
                                     Sely Immobilier a été fondé sur la conviction que l'immobilier de prestige nécessite
-                                    une écoute, une expertise et une discrétion hors du commun. Nous accompagnons une clientèle
+                                    une écoute, un conseil avisé et une discrétion hors du commun. Nous accompagnons une clientèle
                                     exigeante dans la réalisation de ses rêves les plus ambitieux au cœur de la capitale.
                                 </p>
 
@@ -135,26 +135,41 @@ const Discover = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.8, delay: index * 0.2 }}
-                                className="group relative bg-white p-8 lg:p-12 shadow-xl border border-gray-50 hover:shadow-2xl transition-all duration-500"
+                                className="p-6 text-center"
                             >
-                                <div className="mb-8 relative inline-block">
-                                    <v.icon size={48} className="text-primary group-hover:text-secondary transition-colors duration-500" strokeWidth={1} />
-                                    <div className="absolute -top-2 -right-2 w-12 h-12 bg-secondary/5 rounded-full -z-10 scale-0 group-hover:scale-100 transition-transform duration-500"></div>
+                                <div className="text-secondary flex justify-center mb-6">
+                                    <v.icon size={36} strokeWidth={1} />
                                 </div>
-                                <h3 className="text-2xl font-serif text-primary mb-6">{v.title}</h3>
-                                <p className="text-gray-500 leading-relaxed font-light text-lg">
+                                <h4 className="text-lg font-bold uppercase tracking-wide mb-3">{v.title}</h4>
+                                <p className="text-gray-500 text-sm font-light leading-relaxed">
                                     {v.desc}
                                 </p>
                             </motion.div>
                         ))}
                     </div>
+
+                    {/* Additional Storytelling Paragraph */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8, delay: 0.6 }}
+                        className="max-w-4xl mx-auto text-center mt-24 lg:mt-32 px-4"
+                    >
+                        <div className="text-secondary mb-6 flex justify-center">
+                            <div className="w-12 h-[1px] bg-secondary/50"></div>
+                        </div>
+                        <p className="text-xl md:text-3xl font-serif text-primary/80 leading-relaxed font-light italic">
+                            "Bien plus qu'une simple transaction, Sely orchestre la valorisation et la transmission de votre patrimoine parisien avec une exigence absolue et un sens du service sur-mesure."
+                        </p>
+                    </motion.div>
                 </div>
             </section>
 
             {/* SECTION 3: L'AFFICHE (The requested "Affiche" section) */}
             <section className="py-16 md:py-12 md:py-16 lg:py-24 lg:py-32 bg-gray-50 relative overflow-hidden">
                 <div className="container mx-auto px-4">
-                    <div className="relative aspect-[21/9] w-full bg-primary overflow-hidden group shadow-2xl">
+                    <div className="relative min-h-[500px] md:min-h-0 md:aspect-[21/9] w-full bg-primary overflow-hidden group shadow-2xl">
                         <img
                             src="https://images.unsplash.com/photo-1550340499-a6c6030e6953?q=80&w=2000"
                             alt="Luxury Paris Interior"
@@ -171,9 +186,9 @@ const Discover = () => {
                                     La vôtre commence ici, entre les lignes de l'histoire parisienne
                                     et le confort de l'innovation contemporaine.
                                 </p>
-                                <button className="border-b-2 border-secondary pb-2 text-xs font-bold uppercase tracking-[0.3em] hover:text-secondary transition-colors">
+                                <Link to="/buy" className="inline-block border-b-2 border-secondary pb-2 text-xs font-bold uppercase tracking-[0.3em] hover:text-secondary transition-colors">
                                     Découvrir nos exclusivités
-                                </button>
+                                </Link>
                             </div>
                         </div>
 

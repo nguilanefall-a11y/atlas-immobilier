@@ -10,12 +10,12 @@ const Advisors = () => {
             role: "Directeur d'Agence",
             description: "Fondateur et visionnaire, Arthur assure la direction stratégique de l'agence avec une exigence d'excellence absolue.",
             image: "/assets/advisors/artur.png",
-            phone: "06 52 90 49 51"
+            phone: "01 84 16 08 42"
         },
         {
             id: 1,
             name: "Valentine de La Tour",
-            role: "Experte Immobilier",
+            role: "Conseillère Immobilier",
             description: "Passionnée par l'immobilier de prestige depuis 15 ans, Valentine accompagne nos clients avec une vision centrée sur l'excellence.",
             image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             phone: "06 12 34 56 78"
@@ -23,7 +23,7 @@ const Advisors = () => {
         {
             id: 2,
             name: "Maxime Chatenay",
-            role: "Expert Transaction",
+            role: "Conseiller Transaction",
             description: "Spécialiste du marché parisien, Maxime accompagne ses clients dans leurs projets d'achat et de vente avec rigueur.",
             image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             phone: "06 98 76 54 32"
@@ -31,7 +31,7 @@ const Advisors = () => {
         {
             id: 3,
             name: "David Kouakou",
-            role: "Expert Transaction Senior",
+            role: "Conseiller Transaction Senior",
             description: "Fort d'une expérience internationale, David allie une écoute attentive à une parfaite maîtrise du marché parisien pour vous offrir un accompagnement sur mesure.",
             image: "/assets/advisors/david.png",
             phone: "06 34 56 78 90"
@@ -75,7 +75,7 @@ const Advisors = () => {
                     <h1 className="text-4xl md:text-5xl font-serif text-primary mb-6">Nos Conseillers</h1>
                     <div className="w-24 h-1 bg-secondary mx-auto mb-8"></div>
                     <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
-                        Une équipe d'experts passionnés à votre écoute pour concrétiser vos projets immobiliers les plus ambitieux.
+                        Une équipe de conseillers passionnés à votre écoute pour concrétiser vos projets immobiliers les plus ambitieux.
                     </p>
                 </motion.div>
 

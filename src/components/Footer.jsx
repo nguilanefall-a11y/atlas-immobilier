@@ -15,7 +15,7 @@ const Footer = () => {
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed">
                             L'excellence de l'immobilier parisien.
-                            Une expertise unique pour des biens d'exception.
+                            Un accompagnement sur-mesure pour des biens d'exception.
                             Transaction, Location, Gestion.
                         </p>
                     </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                         <h4 className="font-serif font-bold mb-6 text-lg">Navigation</h4>
                         <ul className="space-y-4 text-sm text-gray-400">
                             <li><Link to="/buy" className="hover:text-secondary transition-colors">Acheter un bien</Link></li>
-                            <li><Link to="/rent" className="hover:text-secondary transition-colors">Louer un bien</Link></li>
+                            <li><Link to="/conciergerie" className="hover:text-secondary transition-colors">Loyer Garanti</Link></li>
                             <li><Link to="/sell" className="hover:text-secondary transition-colors">Vendre votre bien</Link></li>
                             <li><Link to="/journal" className="hover:text-secondary transition-colors">Journal</Link></li>
                             <li><Link to="/discover" className="hover:text-secondary transition-colors">Découvrir l'agence</Link></li>
@@ -38,16 +38,13 @@ const Footer = () => {
                         <ul className="space-y-4 text-sm text-gray-400">
                             <li className="flex items-start gap-3">
                                 <MapPin size={18} className="text-secondary mt-1 min-w-[18px]" />
-                                <span>66 avenue des Champs-Elysées<br />75008 Paris</span>
+                                <span>41 rue de Bourgogne<br />75007 Paris</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone size={18} className="text-secondary min-w-[18px]" />
-                                <span>06 52 90 49 51</span>
+                                <span>01 84 16 08 42</span>
                             </li>
-                            <li className="flex items-center gap-3">
-                                <Mail size={18} className="text-secondary min-w-[18px]" />
-                                <span>contact@sely.paris</span>
-                            </li>
+
                         </ul>
                     </div>
 
@@ -73,7 +70,7 @@ const Footer = () => {
                         &copy; {new Date().getFullYear()} Sely Immobilier. Tous droits réservés.
                     </div>
                     <div className="flex gap-6 items-center">
-                        <span className="hidden md:inline mr-4 opacity-70">66 avenue des Champs-Elysées, 75008 Paris</span>
+                        <span className="hidden md:inline mr-4 opacity-70">41 rue de Bourgogne, 75007 Paris</span>
                         <Link to="/mentions-legales" className="hover:text-white transition-colors">Mentions Légales</Link>
                         <Link to="/confidentialite" className="hover:text-white transition-colors">Politique de Confidentialité</Link>
                         <Link to="/cookies" className="hover:text-white transition-colors">Cookies</Link>

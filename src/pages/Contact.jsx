@@ -1,8 +1,19 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Mail, Phone, MapPin, Clock, Send, ChevronDown } from 'lucide-react';
 
 const Contact = () => {
+    const [isProjectMenuOpen, setIsProjectMenuOpen] = useState(false);
+    const [selectedProject, setSelectedProject] = useState('Conciergerie');
+    const projectTypes = [
+        'Conciergerie',
+        'Achat d\'un bien',
+        'Vente d\'un bien',
+        'Location / Gestion',
+        'Estimation',
+        'Autre demande'
+    ];
+
     return (
         <div className="pt-24 pb-20 min-h-screen bg-white">
             <div className="container mx-auto px-4">
@@ -13,8 +24,8 @@ const Contact = () => {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-20"
                 >
-                    <h1 className="text-4xl md:text-6xl font-serif text-primary mb-6 uppercase tracking-wider">Contactez l'excellence</h1>
-                    <div className="w-24 h-1 bg-secondary mx-auto mb-8"></div>
+                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-6 tracking-[0.1em]">Contact</h1>
+                    <div className="w-24 h-[1px] bg-secondary mx-auto mb-10"></div>
                     <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
                         Que vous souhaitiez vendre, acheter ou simplement échanger sur votre projet, nos conseillers vous répondent sous 24h.
                     </p>
@@ -31,32 +42,11 @@ const Contact = () => {
 
                                 <div className="space-y-10">
                                     <div className="flex items-start gap-5">
-                                        <MapPin className="text-secondary mt-1 shrink-0" size={24} />
-                                        <div>
-                                            <h3 className="font-bold uppercase tracking-widest text-xs mb-2 text-secondary">Adresse</h3>
-                                            <p className="text-gray-300 leading-relaxed font-light">
-                                                66 avenue des Champs-Elysées<br />
-                                                75008 Paris, France
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex items-start gap-5">
                                         <Phone className="text-secondary mt-1 shrink-0" size={24} />
                                         <div>
                                             <h3 className="font-bold uppercase tracking-widest text-xs mb-2 text-secondary">Téléphone</h3>
                                             <p className="text-gray-300 leading-relaxed font-light">
-                                                06 52 90 49 51
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex items-start gap-5">
-                                        <Mail className="text-secondary mt-1 shrink-0" size={24} />
-                                        <div>
-                                            <h3 className="font-bold uppercase tracking-widest text-xs mb-2 text-secondary">Email</h3>
-                                            <p className="text-gray-300 leading-relaxed font-light">
-                                                contact@sely.paris
+                                                01 84 16 08 42
                                             </p>
                                         </div>
                                     </div>
@@ -109,16 +99,41 @@ const Contact = () => {
                                 />
                             </div>
 
-                            <div className="space-y-2">
+                            <div className="space-y-2 relative">
                                 <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Type de projet</label>
-                                <select className="w-full border-b border-gray-200 focus:border-secondary outline-none py-3 transition-all bg-transparent font-light text-lg appearance-none">
-                                    <option>Conciergerie</option>
-                                    <option>Achat d'un bien</option>
-                                    <option>Vente d'un bien</option>
-                                    <option>Location / Gestion</option>
-                                    <option>Estimation</option>
-                                    <option>Autre demande</option>
-                                </select>
+
+                                <div
+                                    className="w-full border-b border-gray-200 focus-within:border-secondary transition-all py-3 flex justify-between items-center cursor-pointer font-light text-lg"
+                                    onClick={() => setIsProjectMenuOpen(!isProjectMenuOpen)}
+                                >
+                                    <span>{selectedProject}</span>
+                                    <ChevronDown size={18} className={`text-gray-400 transition-transform duration-300 ${isProjectMenuOpen ? 'rotate-180' : ''}`} />
+                                </div>
+
+                                <AnimatePresence>
+                                    {isProjectMenuOpen && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 10 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: 10 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="absolute top-full left-0 mt-2 w-full bg-white border border-gray-100 shadow-2xl py-2 z-50 rounded-sm"
+                                        >
+                                            {projectTypes.map((type) => (
+                                                <div
+                                                    key={type}
+                                                    className={`px-4 py-3 text-sm cursor-pointer transition-colors ${selectedProject === type ? 'text-primary font-medium bg-gray-50/50' : 'text-gray-500 font-light hover:bg-gray-50 hover:text-primary'}`}
+                                                    onClick={() => {
+                                                        setSelectedProject(type);
+                                                        setIsProjectMenuOpen(false);
+                                                    }}
+                                                >
+                                                    {type}
+                                                </div>
+                                            ))}
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
                             </div>
 
                             <div className="space-y-2 md:col-span-2">
@@ -144,28 +159,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* Map Representation Section */}
-                <div className="mt-12 md:mt-20 h-[350px] md:h-[500px] bg-gray-100 relative grayscale hover:grayscale-0 transition-all duration-1000 overflow-hidden border border-gray-100 shadow-sm group">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.4754546597793!2d2.302008711832049!3d48.86821217122178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fccfb30cb1d%3A0x6b8ee9e6ae5c8f6!2s66%20Av.%20des%20Champs-%C3%89lys%C3%A9es%2C%2075008%20Paris!5e0!3m2!1sen!2sfr!4v1700000000000!5m2!1sen!2sfr"
-                        width="100%"
-                        height="100%"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        title="Sely Paris Office Map"
-                        className="opacity-80 group-hover:opacity-100 transition-opacity duration-500"
-                    ></iframe>
-
-                    <div className="absolute inset-0 bg-primary/5 pointer-events-none"></div>
-                    <div className="absolute bottom-4 left-4 right-4 md:right-auto md:bottom-10 md:left-10 bg-white p-5 md:p-6 shadow-2xl md:max-w-sm">
-                        <h4 className="font-serif font-bold text-primary mb-2">Notre Bureau</h4>
-                        <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-widest">
-                            Ouvert aux visites et consultations<br />du lundi au samedi.
-                        </p>
-                    </div>
-                </div>
+                {/* Map Representation Section Removed per user request */}
             </div>
         </div>
     );
